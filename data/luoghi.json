@@ -1,0 +1,132 @@
+{
+  "_nota": "Dati verificati su fonti pubbliche (Wikipedia, sito del Comune di Grezzago). In questo elenco vanno SOLO luoghi che si trovano dentro il territorio di Grezzago: le attrazioni dei comuni vicini appartengono a quei comuni e non vanno presentate come se fossero del paese.",
+  "paese": {
+    "nome": "Grezzago",
+    "provincia": "Città metropolitana di Milano",
+    "regione": "Lombardia",
+    "cap": "20056",
+    "abitanti": 3206,
+    "abitantiAl": "2026-05-31",
+    "superficieKmq": 2.46,
+    "altitudineM": 178,
+    "demonimo": "grezzaghesi",
+    "patrono": "San Martino",
+    "patronoData": "11 novembre",
+    "coordinate": { "lat": 45.5911, "lng": 9.495 },
+    "confina": [
+      "Busnago (MB)",
+      "Pozzo d'Adda",
+      "Trezzano Rosa",
+      "Trezzo sull'Adda",
+      "Vaprio d'Adda"
+    ],
+    "occhiello": "Due chilometri quadrati e mezzo di paese, a mezz'ora da Milano.",
+    "presentazione": "Grezzago sta nell'angolo nord-est della Città metropolitana di Milano, dove la pianura comincia a sentire il fiume. Tremila abitanti, due chilometri e mezzo scarsi di superficie, un campanile del Duecento e un palazzo del Quattrocento nel mezzo delle case. È un paese piccolo e si gira a piedi: in mezz'ora si è visto tutto, ma vale la pena farlo con calma."
+  },
+
+  "luoghi": [
+    {
+      "id": "san-martino",
+      "nome": "Chiesa di San Martino",
+      "tipo": "Chiesa parrocchiale",
+      "distanzaKm": 0,
+      "descrizione": "La parrocchiale del paese, dedicata al santo patrono. Le prime testimonianze la citano nel Duecento come cappella rurale dipendente dalla Pieve di Pontirolo: è il punto più antico di Grezzago di cui si abbia notizia scritta.",
+      "cerca": "Chiesa di San Martino, Grezzago MI",
+      "icona": "chiesa",
+      "evidenza": true
+    },
+    {
+      "id": "palazzo-zoja",
+      "nome": "Palazzo Zoja",
+      "tipo": "Villa padronale, XV secolo",
+      "distanzaKm": 0,
+      "descrizione": "La villa padronale che il Quattrocento visconteo-sforzesco ha lasciato in mezzo alle case. È il segno che questa terra, prima di essere paese, era una proprietà agricola importante.",
+      "cerca": "Palazzo Zoja, Grezzago MI",
+      "icona": "palazzo",
+      "evidenza": true
+    },
+    {
+      "id": "campo-solcia",
+      "nome": "Campo Sportivo «A. Solcia»",
+      "tipo": "Impianto sportivo",
+      "distanzaKm": 0,
+      "indirizzo": "Via Don Luigi Sturzo, 10",
+      "descrizione": "Casa dell'A.S.D. Grezzago 1981 e cuore sportivo del paese: la domenica pomeriggio è qui che si decide l'umore della settimana. Attorno all'impianto corre un percorso natura/vita liberamente accessibile.",
+      "cerca": "Campo Sportivo A. Solcia, Via Don Luigi Sturzo 10, Grezzago MI",
+      "icona": "campo",
+      "evidenza": true
+    },
+    {
+      "id": "municipio",
+      "nome": "Municipio e Piazza della Repubblica",
+      "tipo": "Centro civico",
+      "distanzaKm": 0,
+      "indirizzo": "Piazza della Repubblica, 1",
+      "descrizione": "La piazza del paese, con il Municipio. È il punto di ritrovo per le iniziative pubbliche e il riferimento per chi arriva la prima volta.",
+      "cerca": "Piazza della Repubblica 1, Grezzago MI",
+      "icona": "municipio"
+    },
+    {
+      "id": "percorso-vita",
+      "nome": "Percorso natura e vita",
+      "tipo": "Area verde attrezzata",
+      "distanzaKm": 0,
+      "indirizzo": "Presso il Campo Sportivo «A. Solcia»",
+      "descrizione": "Attorno all'impianto sportivo corre un percorso natura/vita con attrezzi, liberamente accessibile. È il posto dove i grezzaghesi vanno a correre la mattina presto e a portare fuori i bambini il pomeriggio.",
+      "cerca": "Percorso vita Campo Sportivo A. Solcia, Grezzago MI",
+      "icona": "fiume"
+    }
+  ],
+
+  "comeArrivare": [
+    {
+      "id": "auto",
+      "mezzo": "In auto",
+      "icona": "auto",
+      "tempo": "35 min da Milano",
+      "dettaglio": "Autostrada A4 Milano–Venezia, uscita Trezzo sull'Adda: da lì sono circa 4 km. Grezzago dista una trentina di chilometri dal centro di Milano.",
+      "nota": "Parcheggio libero in paese."
+    },
+    {
+      "id": "mezzi",
+      "mezzo": "Con i mezzi pubblici",
+      "icona": "metro",
+      "tempo": "~33 min da Gessate M2",
+      "dettaglio": "Metropolitana M2 (linea verde) fino al capolinea Gessate, poi autobus Z310 in direzione Trezzo sull'Adda. Fermate a Grezzago: Via Europa/Via Cavour, Via Venezia/Via Europa, Via Roma/Via Venezia.",
+      "nota": "La linea Z310 è attiva tutti i giorni, indicativamente dalle 4:20 alle 22:00. Verificare gli orari aggiornati prima di partire."
+    },
+    {
+      "id": "bici",
+      "mezzo": "In bicicletta",
+      "icona": "bici",
+      "tempo": "2 h da Milano",
+      "dettaglio": "Ciclabile del Naviglio della Martesana da Milano fino a Cassano d'Adda, poi risalita lungo il Parco Adda Nord verso Trezzo e Grezzago. Percorso quasi interamente protetto.",
+      "nota": "L'itinerario più bello dei tre, se avete la giornata."
+    }
+  ],
+
+  "numeriUtili": [
+    {
+      "nome": "Comune di Grezzago",
+      "dettaglio": "Piazza della Repubblica, 1 — 20056 Grezzago (MI)",
+      "telefono": "+390290936 91",
+      "telefonoVisibile": "02 9093691",
+      "pec": "comune.grezzago@pec.regione.lombardia.it",
+      "sito": "https://www.comune.grezzago.mi.it/",
+      "verificato": true
+    },
+    {
+      "nome": "Emergenze",
+      "dettaglio": "Numero unico di emergenza — carabinieri, ambulanza, vigili del fuoco",
+      "telefono": "112",
+      "telefonoVisibile": "112",
+      "verificato": true
+    },
+    {
+      "nome": "A.S.D. Grezzago 1981",
+      "dettaglio": "Campo Sportivo «A. Solcia» — Via Don Luigi Sturzo, 10",
+      "sito": "https://www.facebook.com/ASDGREZZAGO1981/",
+      "verificato": true
+    }
+  ]
+}

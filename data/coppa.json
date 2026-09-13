@@ -1,0 +1,29 @@
+{
+  "_fonte": "CRL LND, Comunicato Ufficiale n. 22 del 10/09/2026: risultati della 1ª giornata di Coppa Lombardia Terza Categoria (gare del 5 e 6 settembre 2026) e allegato «Classifiche Coppe». Dati copiati dal documento e verificati sulla pagina originale.",
+  "competizione": "Coppa Lombardia Terza Categoria",
+  "stagione": "2026/27",
+  "girone": 40,
+  "premio": "Chi vince la Coppa Lombardia di Terza Categoria conquista il titolo per la Seconda Categoria 2027/28.",
+  "aggiornataAl": { "documento": "C.U. CRL n. 22", "data": "2026-09-10" },
+  "prossimeGare": "Date e accoppiamenti della 2ª giornata non ancora pubblicati dal Comitato.",
+  "squadre": [
+    { "id": "grezzago", "nome": "Grezzago",        "sigla": "GRE", "nomeUfficiale": "A.S.D. GREZZAGO" },
+    { "id": "carugate", "nome": "Real Carugate",   "sigla": "CAR", "nomeUfficiale": "A.S.D. REAL CARUGATE" },
+    { "id": "capriate", "nome": "Capriate Calcio", "sigla": "CAP", "nomeUfficiale": "A.S.D. CAPRIATE CALCIO" },
+    { "id": "colnago",  "nome": "Colnago (U21)",   "sigla": "COL", "nomeUfficiale": "C.S. COLNAGO ASD (U21)" }
+  ],
+  "partite": [
+    { "id": "c40-g1-colnago-grezzago",  "giornata": 1, "data": "2026-09-05", "ora": null, "casa": "colnago",  "ospite": "grezzago", "nota": "Giocata sabato 5 settembre" },
+    { "id": "c40-g1-carugate-capriate", "giornata": 1, "data": "2026-09-06", "ora": null, "casa": "carugate", "ospite": "capriate" }
+  ],
+  "risultati": {
+    "c40-g1-colnago-grezzago": [0, 2],
+    "c40-g1-carugate-capriate": [3, 2]
+  },
+  "classificaUfficiale": [
+    { "posizione": 1, "id": "grezzago", "pt": 3, "g": 1, "v": 1, "n": 0, "p": 0, "gf": 2, "gs": 0 },
+    { "posizione": 2, "id": "carugate", "pt": 3, "g": 1, "v": 1, "n": 0, "p": 0, "gf": 3, "gs": 2 },
+    { "posizione": 3, "id": "capriate", "pt": 0, "g": 1, "v": 0, "n": 0, "p": 1, "gf": 2, "gs": 3 },
+    { "posizione": 4, "id": "colnago",  "pt": 0, "g": 1, "v": 0, "n": 0, "p": 1, "gf": 0, "gs": 2 }
+  ]
+}

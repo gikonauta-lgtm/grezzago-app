@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Grezzago">
+  <!--
+    Variante "maskable" per Android: nessun angolo arrotondato (ci pensa il
+    sistema) e contenuto dentro la zona sicura dell'80%, così non viene
+    tagliato dalle maschere circolari o a goccia.
+  -->
+  <defs>
+    <linearGradient id="sfondoM" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0%" stop-color="#e01a3c"/>
+      <stop offset="55%" stop-color="#c8102e"/>
+      <stop offset="100%" stop-color="#8c0620"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#sfondoM)"/>
+
+  <path d="M256 148 356 179v112c0 68-52 105-100 120-48-15-100-52-100-120V179z"
+        fill="none" stroke="#ffffff" stroke-opacity="0.34" stroke-width="11"/>
+
+  <text x="256" y="328" text-anchor="middle"
+        font-family="Archivo, Helvetica Neue, Arial, sans-serif"
+        font-size="166" font-weight="800" letter-spacing="-6" fill="#ffffff">G</text>
+</svg>

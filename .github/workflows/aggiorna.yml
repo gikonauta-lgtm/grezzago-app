@@ -1,0 +1,46 @@
+name: Aggiorna i risultati
+
+# Il comunicato della Delegazione di Monza esce di solito il giovedì, ma non a
+# un'ora fissa: si guarda giovedì, venerdì e sabato mattina presto. Se non c'è
+# niente di nuovo il lavoro finisce in pochi secondi senza toccare nulla.
+on:
+  schedule:
+    - cron: '15 5 * * 4,5,6'   # orario UTC
+  workflow_dispatch:            # e si può lanciare a mano da GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Su macOS il testo dai PDF lo estrae PDFKit, che è già nel sistema.
+      # Su Linux serve pdftotext.
+      - name: Installa pdftotext
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
+      - name: Cerca i comunicati nuovi e importa i risultati
+        run: node scripts/aggiorna.mjs
+
+      # Se i conti non tornano il lavoro si ferma qui e non pubblica niente.
+      - name: Controlla la coerenza dei dati
+        run: node scripts/verifica-classifica.mjs
+
+      - name: Pubblica se qualcosa è cambiato
+        run: |
+          if [ -z "$(git status --porcelain data/)" ]; then
+            echo "Nessuna modifica ai dati."
+            exit 0
+          fi
+          git config user.name "Aggiornamento automatico"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "Dati aggiornati dal Comitato Regionale Lombardia"
+          git push

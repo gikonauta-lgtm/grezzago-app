@@ -1,0 +1,3215 @@
+{
+  "config": {
+    "stagione": "2026/27",
+    "campionato": "Terza Categoria",
+    "girone": "Monza Brianza — Girone A",
+    "federazione": "LND — Comitato Regionale Lombardia, Delegazione di Monza",
+    "squadraDiCasa": "grezzago",
+    "puntiVittoria": 3,
+    "puntiPareggio": 1,
+    "zone": {
+      "promozione": 1,
+      "playoff": 7
+    },
+    "fonte": {
+      "nome": "CRL LND — Delegazione di Monza",
+      "url": "https://www.crlombardia.it/comunicati"
+    },
+    "calendario": {
+      "documento": "Terza Categoria Monza.pdf",
+      "fonte": "Allegato al C.U. n. 9 del 28/08/2026 della Delegazione Provinciale di Monza",
+      "url": "https://www.crlombardia.it/documenti/33373/comunicato-ufficiale-n-9",
+      "importatoIl": "2026-09-11"
+    }
+  },
+  "squadre": [
+    {
+      "id": "aureliana",
+      "nome": "Aureliana",
+      "sigla": "AUR",
+      "matricola": 65240,
+      "nomeUfficiale": "A.S.D. AURELIANA"
+    },
+    {
+      "id": "cambiaghese",
+      "nome": "Cambiaghese",
+      "sigla": "CAM",
+      "matricola": 8860,
+      "nomeUfficiale": "U.S.D. CAMBIAGHESE"
+    },
+    {
+      "id": "capriate",
+      "nome": "Capriate Calcio",
+      "sigla": "CAP",
+      "matricola": 952763,
+      "nomeUfficiale": "A.S.D. CAPRIATE CALCIO"
+    },
+    {
+      "id": "busnago",
+      "nome": "Città di Busnago",
+      "sigla": "BUS",
+      "matricola": 965199,
+      "nomeUfficiale": "ASD CITTA DI BUSNAGO 2026"
+    },
+    {
+      "id": "fonas",
+      "nome": "Fonas",
+      "sigla": "FON",
+      "matricola": 66563,
+      "nomeUfficiale": "FONAS ASD"
+    },
+    {
+      "id": "glaxiate",
+      "nome": "Glaxiate Calcio",
+      "sigla": "GLX",
+      "matricola": 963145,
+      "nomeUfficiale": "ASD GLAXIATE CALCIO"
+    },
+    {
+      "id": "grezzago",
+      "nome": "Grezzago",
+      "sigla": "GRE",
+      "matricola": 675725,
+      "nomeUfficiale": "A.S.D. GREZZAGO"
+    },
+    {
+      "id": "lokomotiv",
+      "nome": "Lokomotiv Farese",
+      "sigla": "LOK",
+      "matricola": 965426,
+      "nomeUfficiale": "LOKOMOTIV FARESE CALCIO 2"
+    },
+    {
+      "id": "masate",
+      "nome": "Masate",
+      "sigla": "MAS",
+      "matricola": 949446,
+      "nomeUfficiale": "MASATE A.S.D."
+    },
+    {
+      "id": "orsenigo",
+      "nome": "Mons. Orsenigo",
+      "sigla": "ORS",
+      "matricola": 200774,
+      "nomeUfficiale": "F.C.D. MONS.ORSENIGO"
+    },
+    {
+      "id": "suisio",
+      "nome": "Oratorio Suisio 2000",
+      "sigla": "SUI",
+      "matricola": 51120,
+      "nomeUfficiale": "ORATORIO SUISIO 2000 ASD"
+    },
+    {
+      "id": "ornago",
+      "nome": "Ornago",
+      "sigla": "ORN",
+      "matricola": 675315,
+      "nomeUfficiale": "ORNAGO A.S. A.S.D."
+    },
+    {
+      "id": "carugate",
+      "nome": "Real Carugate",
+      "sigla": "CAR",
+      "matricola": 954877,
+      "nomeUfficiale": "A.S.D. REAL CARUGATE"
+    },
+    {
+      "id": "krono",
+      "nome": "Real Krono",
+      "sigla": "KRO",
+      "matricola": 965177,
+      "nomeUfficiale": "REAL KRONO F.C. ASD"
+    },
+    {
+      "id": "trecella",
+      "nome": "Virtus Acli Trecella",
+      "sigla": "TRE",
+      "matricola": 930113,
+      "nomeUfficiale": "A.S.D. VIRTUS ACLI TRECELLA"
+    }
+  ],
+  "impianti": {
+    "aureliana": {
+      "codice": 22,
+      "campo": "C.S.COMUNALE-CAMPO A (E.A) CASSINA DE'PECCHI",
+      "indirizzo": "VIA GIUSEPPE MAZZINI SNC",
+      "ora": null,
+      "giorno": "domenica"
+    },
+    "cambiaghese": {
+      "codice": 2241,
+      "campo": "C.S.COMUNALE - CAMPO N.1 CAMBIAGO",
+      "indirizzo": "VIA IV NOVEMBRE",
+      "ora": "14:30",
+      "giorno": "domenica"
+    },
+    "busnago": {
+      "codice": 2189,
+      "campo": "C.S.COMUNALE (E.A) BELLINZAGO LOMBARDO",
+      "indirizzo": "VIA GALILEO GALILEI SNC",
+      "ora": "14:30",
+      "giorno": "domenica"
+    },
+    "fonas": {
+      "codice": 387,
+      "campo": "C.S.\"SANTA GIULIANA\" CAPONAGO",
+      "indirizzo": "VIA DON ANGELO PANIGADA SNC",
+      "ora": null,
+      "giorno": "domenica"
+    },
+    "glaxiate": {
+      "codice": 567,
+      "campo": "C.S.\"ROMEO BERTINI\" N.1 GESSATE",
+      "indirizzo": "VIA GRAMSCI,3",
+      "ora": null,
+      "giorno": "domenica",
+      "nota": "La Società GLAXIATE CALCIO potrà giocare indistintamente sui campi Nr. 1 e Nr. 2 entrambi siti in GESSATE"
+    },
+    "ornago": {
+      "codice": 2642,
+      "campo": "C.S.COMUNALE (E.A.) ORNAGO",
+      "indirizzo": "VIA CARLO PORTA N.10",
+      "ora": "15:00",
+      "giorno": "domenica"
+    },
+    "trecella": {
+      "codice": 1407,
+      "campo": "C.S.COMUNALE (E.A)\"P.VITALI\" POZZUOLO MART.",
+      "indirizzo": "VIA XXV APRILE",
+      "ora": "15:00",
+      "giorno": "domenica"
+    },
+    "capriate": {
+      "codice": 1218,
+      "campo": "C.S.COMUNALE (E.A) CAPRIATE SAN GERVASIO",
+      "indirizzo": "VIA GRIGNANO,24",
+      "ora": null,
+      "giorno": "domenica"
+    },
+    "grezzago": {
+      "codice": 1034,
+      "campo": "C.S.ALBERTO SOLCIA(E.A) GREZZAGO",
+      "indirizzo": "VIA DON STURZO 10",
+      "ora": "14:30",
+      "giorno": "domenica"
+    },
+    "lokomotiv": {
+      "codice": 356,
+      "campo": "C.S.COMUNALE FARA GERA D'ADDA",
+      "indirizzo": "VIA A.RESEGHETTI,116",
+      "ora": null,
+      "giorno": "domenica"
+    },
+    "orsenigo": {
+      "codice": 2053,
+      "campo": "PARROCCHIA\"MONSIGNOR ORSENIGO\" MELZO",
+      "indirizzo": "VIA SAN ROCCO 5",
+      "ora": null,
+      "giorno": "domenica"
+    },
+    "suisio": {
+      "codice": 688,
+      "campo": "C.S.ORATORIO DON BOSCO SUISIO",
+      "indirizzo": "VIA BREDE,13",
+      "ora": null,
+      "giorno": "domenica"
+    },
+    "carugate": {
+      "codice": 1384,
+      "campo": "C.S.COMUNALE CAMPO 3 (E.A.) CARUGATE",
+      "indirizzo": "VIA DEL GINESTRINO 15",
+      "ora": null,
+      "giorno": "domenica"
+    },
+    "krono": {
+      "codice": 1425,
+      "campo": "COMUNALE CAMPO N.1 BOTTANUCO",
+      "indirizzo": "VIA JOHN FITZGERALD KENNEDY,8",
+      "ora": null,
+      "giorno": "domenica"
+    },
+    "masate": {
+      "codice": 297,
+      "campo": "CENTRO SPORTIVO COMUNALE MASATE",
+      "indirizzo": "VIA VENEZIA, 2/C",
+      "ora": null,
+      "giorno": "domenica"
+    }
+  },
+  "riposi": {
+    "1": "masate",
+    "2": "trecella",
+    "3": "carugate",
+    "4": "cambiaghese",
+    "5": "grezzago",
+    "6": "fonas",
+    "7": "capriate",
+    "8": "glaxiate",
+    "9": "lokomotiv",
+    "10": "busnago",
+    "11": "orsenigo",
+    "12": "aureliana",
+    "13": "suisio",
+    "14": "ornago",
+    "15": "krono",
+    "16": "masate",
+    "17": "trecella",
+    "18": "carugate",
+    "19": "cambiaghese",
+    "20": "grezzago",
+    "21": "fonas",
+    "22": "capriate",
+    "23": "glaxiate",
+    "24": "lokomotiv",
+    "25": "busnago",
+    "26": "orsenigo",
+    "27": "aureliana",
+    "28": "suisio",
+    "29": "ornago",
+    "30": "krono"
+  },
+  "partite": [
+    {
+      "id": "g1-trecella-krono",
+      "giornata": 1,
+      "data": "2026-09-13",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "trecella",
+      "ospite": "krono",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A)\"P.VITALI\" POZZUOLO MART.",
+        "indirizzo": "VIA XXV APRILE",
+        "codice": 1407
+      }
+    },
+    {
+      "id": "g1-cambiaghese-suisio",
+      "giornata": 1,
+      "data": "2026-09-13",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "cambiaghese",
+      "ospite": "suisio",
+      "impianto": {
+        "campo": "C.S.COMUNALE - CAMPO N.1 CAMBIAGO",
+        "indirizzo": "VIA IV NOVEMBRE",
+        "codice": 2241
+      }
+    },
+    {
+      "id": "g1-fonas-orsenigo",
+      "giornata": 1,
+      "data": "2026-09-13",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "fonas",
+      "ospite": "orsenigo",
+      "impianto": {
+        "campo": "C.S.\"SANTA GIULIANA\" CAPONAGO",
+        "indirizzo": "VIA DON ANGELO PANIGADA SNC",
+        "codice": 387
+      }
+    },
+    {
+      "id": "g1-glaxiate-lokomotiv",
+      "giornata": 1,
+      "data": "2026-09-13",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "glaxiate",
+      "ospite": "lokomotiv",
+      "impianto": {
+        "campo": "C.S.\"ROMEO BERTINI\" N.1 GESSATE",
+        "indirizzo": "VIA GRAMSCI,3",
+        "codice": 567
+      }
+    },
+    {
+      "id": "g1-busnago-capriate",
+      "giornata": 1,
+      "data": "2026-09-13",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "busnago",
+      "ospite": "capriate",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) BELLINZAGO LOMBARDO",
+        "indirizzo": "VIA GALILEO GALILEI SNC",
+        "codice": 2189
+      }
+    },
+    {
+      "id": "g1-aureliana-grezzago",
+      "giornata": 1,
+      "data": "2026-09-13",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "aureliana",
+      "ospite": "grezzago",
+      "impianto": {
+        "campo": "C.S.COMUNALE-CAMPO A (E.A) CASSINA DE'PECCHI",
+        "indirizzo": "VIA GIUSEPPE MAZZINI SNC",
+        "codice": 22
+      }
+    },
+    {
+      "id": "g1-ornago-carugate",
+      "giornata": 1,
+      "data": "2026-09-13",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "ornago",
+      "ospite": "carugate",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A.) ORNAGO",
+        "indirizzo": "VIA CARLO PORTA N.10",
+        "codice": 2642
+      }
+    },
+    {
+      "id": "g2-carugate-masate",
+      "giornata": 2,
+      "data": "2026-09-20",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "carugate",
+      "ospite": "masate",
+      "impianto": {
+        "campo": "C.S.COMUNALE CAMPO 3 (E.A.) CARUGATE",
+        "indirizzo": "VIA DEL GINESTRINO 15",
+        "codice": 1384
+      }
+    },
+    {
+      "id": "g2-grezzago-ornago",
+      "giornata": 2,
+      "data": "2026-09-20",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "grezzago",
+      "ospite": "ornago",
+      "impianto": {
+        "campo": "C.S.ALBERTO SOLCIA(E.A) GREZZAGO",
+        "indirizzo": "VIA DON STURZO 10",
+        "codice": 1034
+      }
+    },
+    {
+      "id": "g2-capriate-aureliana",
+      "giornata": 2,
+      "data": "2026-09-20",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "capriate",
+      "ospite": "aureliana",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) CAPRIATE SAN GERVASIO",
+        "indirizzo": "VIA GRIGNANO,24",
+        "codice": 1218
+      }
+    },
+    {
+      "id": "g2-lokomotiv-busnago",
+      "giornata": 2,
+      "data": "2026-09-20",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "lokomotiv",
+      "ospite": "busnago",
+      "impianto": {
+        "campo": "C.S.COMUNALE FARA GERA D'ADDA",
+        "indirizzo": "VIA A.RESEGHETTI,116",
+        "codice": 356
+      }
+    },
+    {
+      "id": "g2-orsenigo-glaxiate",
+      "giornata": 2,
+      "data": "2026-09-20",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "orsenigo",
+      "ospite": "glaxiate",
+      "impianto": {
+        "campo": "PARROCCHIA\"MONSIGNOR ORSENIGO\" MELZO",
+        "indirizzo": "VIA SAN ROCCO 5",
+        "codice": 2053
+      }
+    },
+    {
+      "id": "g2-suisio-fonas",
+      "giornata": 2,
+      "data": "2026-09-20",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "suisio",
+      "ospite": "fonas",
+      "impianto": {
+        "campo": "C.S.ORATORIO DON BOSCO SUISIO",
+        "indirizzo": "VIA BREDE,13",
+        "codice": 688
+      }
+    },
+    {
+      "id": "g2-krono-cambiaghese",
+      "giornata": 2,
+      "data": "2026-09-20",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "krono",
+      "ospite": "cambiaghese",
+      "impianto": {
+        "campo": "COMUNALE CAMPO N.1 BOTTANUCO",
+        "indirizzo": "VIA JOHN FITZGERALD KENNEDY,8",
+        "codice": 1425
+      }
+    },
+    {
+      "id": "g3-cambiaghese-trecella",
+      "giornata": 3,
+      "data": "2026-09-27",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "cambiaghese",
+      "ospite": "trecella",
+      "impianto": {
+        "campo": "C.S.COMUNALE - CAMPO N.1 CAMBIAGO",
+        "indirizzo": "VIA IV NOVEMBRE",
+        "codice": 2241
+      }
+    },
+    {
+      "id": "g3-fonas-krono",
+      "giornata": 3,
+      "data": "2026-09-27",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "fonas",
+      "ospite": "krono",
+      "impianto": {
+        "campo": "C.S.\"SANTA GIULIANA\" CAPONAGO",
+        "indirizzo": "VIA DON ANGELO PANIGADA SNC",
+        "codice": 387
+      }
+    },
+    {
+      "id": "g3-glaxiate-suisio",
+      "giornata": 3,
+      "data": "2026-09-27",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "glaxiate",
+      "ospite": "suisio",
+      "impianto": {
+        "campo": "C.S.\"ROMEO BERTINI\" N.1 GESSATE",
+        "indirizzo": "VIA GRAMSCI,3",
+        "codice": 567
+      }
+    },
+    {
+      "id": "g3-busnago-orsenigo",
+      "giornata": 3,
+      "data": "2026-09-27",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "busnago",
+      "ospite": "orsenigo",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) BELLINZAGO LOMBARDO",
+        "indirizzo": "VIA GALILEO GALILEI SNC",
+        "codice": 2189
+      }
+    },
+    {
+      "id": "g3-aureliana-lokomotiv",
+      "giornata": 3,
+      "data": "2026-09-27",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "aureliana",
+      "ospite": "lokomotiv",
+      "impianto": {
+        "campo": "C.S.COMUNALE-CAMPO A (E.A) CASSINA DE'PECCHI",
+        "indirizzo": "VIA GIUSEPPE MAZZINI SNC",
+        "codice": 22
+      }
+    },
+    {
+      "id": "g3-ornago-capriate",
+      "giornata": 3,
+      "data": "2026-09-27",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "ornago",
+      "ospite": "capriate",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A.) ORNAGO",
+        "indirizzo": "VIA CARLO PORTA N.10",
+        "codice": 2642
+      }
+    },
+    {
+      "id": "g3-masate-grezzago",
+      "giornata": 3,
+      "data": "2026-09-27",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "masate",
+      "ospite": "grezzago",
+      "impianto": {
+        "campo": "CENTRO SPORTIVO COMUNALE MASATE",
+        "indirizzo": "VIA VENEZIA, 2/C",
+        "codice": 297
+      }
+    },
+    {
+      "id": "g4-grezzago-carugate",
+      "giornata": 4,
+      "data": "2026-10-04",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "grezzago",
+      "ospite": "carugate",
+      "impianto": {
+        "campo": "C.S.ALBERTO SOLCIA(E.A) GREZZAGO",
+        "indirizzo": "VIA DON STURZO 10",
+        "codice": 1034
+      }
+    },
+    {
+      "id": "g4-capriate-masate",
+      "giornata": 4,
+      "data": "2026-10-04",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "capriate",
+      "ospite": "masate",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) CAPRIATE SAN GERVASIO",
+        "indirizzo": "VIA GRIGNANO,24",
+        "codice": 1218
+      }
+    },
+    {
+      "id": "g4-lokomotiv-ornago",
+      "giornata": 4,
+      "data": "2026-10-04",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "lokomotiv",
+      "ospite": "ornago",
+      "impianto": {
+        "campo": "C.S.COMUNALE FARA GERA D'ADDA",
+        "indirizzo": "VIA A.RESEGHETTI,116",
+        "codice": 356
+      }
+    },
+    {
+      "id": "g4-orsenigo-aureliana",
+      "giornata": 4,
+      "data": "2026-10-04",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "orsenigo",
+      "ospite": "aureliana",
+      "impianto": {
+        "campo": "PARROCCHIA\"MONSIGNOR ORSENIGO\" MELZO",
+        "indirizzo": "VIA SAN ROCCO 5",
+        "codice": 2053
+      }
+    },
+    {
+      "id": "g4-suisio-busnago",
+      "giornata": 4,
+      "data": "2026-10-04",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "suisio",
+      "ospite": "busnago",
+      "impianto": {
+        "campo": "C.S.ORATORIO DON BOSCO SUISIO",
+        "indirizzo": "VIA BREDE,13",
+        "codice": 688
+      }
+    },
+    {
+      "id": "g4-krono-glaxiate",
+      "giornata": 4,
+      "data": "2026-10-04",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "krono",
+      "ospite": "glaxiate",
+      "impianto": {
+        "campo": "COMUNALE CAMPO N.1 BOTTANUCO",
+        "indirizzo": "VIA JOHN FITZGERALD KENNEDY,8",
+        "codice": 1425
+      }
+    },
+    {
+      "id": "g4-trecella-fonas",
+      "giornata": 4,
+      "data": "2026-10-04",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "trecella",
+      "ospite": "fonas",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A)\"P.VITALI\" POZZUOLO MART.",
+        "indirizzo": "VIA XXV APRILE",
+        "codice": 1407
+      }
+    },
+    {
+      "id": "g5-fonas-cambiaghese",
+      "giornata": 5,
+      "data": "2026-10-11",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "fonas",
+      "ospite": "cambiaghese",
+      "impianto": {
+        "campo": "C.S.\"SANTA GIULIANA\" CAPONAGO",
+        "indirizzo": "VIA DON ANGELO PANIGADA SNC",
+        "codice": 387
+      }
+    },
+    {
+      "id": "g5-glaxiate-trecella",
+      "giornata": 5,
+      "data": "2026-10-11",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "glaxiate",
+      "ospite": "trecella",
+      "impianto": {
+        "campo": "C.S.\"ROMEO BERTINI\" N.1 GESSATE",
+        "indirizzo": "VIA GRAMSCI,3",
+        "codice": 567
+      }
+    },
+    {
+      "id": "g5-busnago-krono",
+      "giornata": 5,
+      "data": "2026-10-11",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "busnago",
+      "ospite": "krono",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) BELLINZAGO LOMBARDO",
+        "indirizzo": "VIA GALILEO GALILEI SNC",
+        "codice": 2189
+      }
+    },
+    {
+      "id": "g5-aureliana-suisio",
+      "giornata": 5,
+      "data": "2026-10-11",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "aureliana",
+      "ospite": "suisio",
+      "impianto": {
+        "campo": "C.S.COMUNALE-CAMPO A (E.A) CASSINA DE'PECCHI",
+        "indirizzo": "VIA GIUSEPPE MAZZINI SNC",
+        "codice": 22
+      }
+    },
+    {
+      "id": "g5-ornago-orsenigo",
+      "giornata": 5,
+      "data": "2026-10-11",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "ornago",
+      "ospite": "orsenigo",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A.) ORNAGO",
+        "indirizzo": "VIA CARLO PORTA N.10",
+        "codice": 2642
+      }
+    },
+    {
+      "id": "g5-masate-lokomotiv",
+      "giornata": 5,
+      "data": "2026-10-11",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "masate",
+      "ospite": "lokomotiv",
+      "impianto": {
+        "campo": "CENTRO SPORTIVO COMUNALE MASATE",
+        "indirizzo": "VIA VENEZIA, 2/C",
+        "codice": 297
+      }
+    },
+    {
+      "id": "g5-carugate-capriate",
+      "giornata": 5,
+      "data": "2026-10-11",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "carugate",
+      "ospite": "capriate",
+      "impianto": {
+        "campo": "C.S.COMUNALE CAMPO 3 (E.A.) CARUGATE",
+        "indirizzo": "VIA DEL GINESTRINO 15",
+        "codice": 1384
+      }
+    },
+    {
+      "id": "g6-capriate-grezzago",
+      "giornata": 6,
+      "data": "2026-10-18",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "capriate",
+      "ospite": "grezzago",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) CAPRIATE SAN GERVASIO",
+        "indirizzo": "VIA GRIGNANO,24",
+        "codice": 1218
+      }
+    },
+    {
+      "id": "g6-lokomotiv-carugate",
+      "giornata": 6,
+      "data": "2026-10-18",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "lokomotiv",
+      "ospite": "carugate",
+      "impianto": {
+        "campo": "C.S.COMUNALE FARA GERA D'ADDA",
+        "indirizzo": "VIA A.RESEGHETTI,116",
+        "codice": 356
+      }
+    },
+    {
+      "id": "g6-orsenigo-masate",
+      "giornata": 6,
+      "data": "2026-10-18",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "orsenigo",
+      "ospite": "masate",
+      "impianto": {
+        "campo": "PARROCCHIA\"MONSIGNOR ORSENIGO\" MELZO",
+        "indirizzo": "VIA SAN ROCCO 5",
+        "codice": 2053
+      }
+    },
+    {
+      "id": "g6-suisio-ornago",
+      "giornata": 6,
+      "data": "2026-10-18",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "suisio",
+      "ospite": "ornago",
+      "impianto": {
+        "campo": "C.S.ORATORIO DON BOSCO SUISIO",
+        "indirizzo": "VIA BREDE,13",
+        "codice": 688
+      }
+    },
+    {
+      "id": "g6-krono-aureliana",
+      "giornata": 6,
+      "data": "2026-10-18",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "krono",
+      "ospite": "aureliana",
+      "impianto": {
+        "campo": "COMUNALE CAMPO N.1 BOTTANUCO",
+        "indirizzo": "VIA JOHN FITZGERALD KENNEDY,8",
+        "codice": 1425
+      }
+    },
+    {
+      "id": "g6-trecella-busnago",
+      "giornata": 6,
+      "data": "2026-10-18",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "trecella",
+      "ospite": "busnago",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A)\"P.VITALI\" POZZUOLO MART.",
+        "indirizzo": "VIA XXV APRILE",
+        "codice": 1407
+      }
+    },
+    {
+      "id": "g6-cambiaghese-glaxiate",
+      "giornata": 6,
+      "data": "2026-10-18",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "cambiaghese",
+      "ospite": "glaxiate",
+      "impianto": {
+        "campo": "C.S.COMUNALE - CAMPO N.1 CAMBIAGO",
+        "indirizzo": "VIA IV NOVEMBRE",
+        "codice": 2241
+      }
+    },
+    {
+      "id": "g7-glaxiate-fonas",
+      "giornata": 7,
+      "data": "2026-10-25",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "glaxiate",
+      "ospite": "fonas",
+      "impianto": {
+        "campo": "C.S.\"ROMEO BERTINI\" N.1 GESSATE",
+        "indirizzo": "VIA GRAMSCI,3",
+        "codice": 567
+      }
+    },
+    {
+      "id": "g7-busnago-cambiaghese",
+      "giornata": 7,
+      "data": "2026-10-25",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "busnago",
+      "ospite": "cambiaghese",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) BELLINZAGO LOMBARDO",
+        "indirizzo": "VIA GALILEO GALILEI SNC",
+        "codice": 2189
+      }
+    },
+    {
+      "id": "g7-aureliana-trecella",
+      "giornata": 7,
+      "data": "2026-10-25",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "aureliana",
+      "ospite": "trecella",
+      "impianto": {
+        "campo": "C.S.COMUNALE-CAMPO A (E.A) CASSINA DE'PECCHI",
+        "indirizzo": "VIA GIUSEPPE MAZZINI SNC",
+        "codice": 22
+      }
+    },
+    {
+      "id": "g7-ornago-krono",
+      "giornata": 7,
+      "data": "2026-10-25",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "ornago",
+      "ospite": "krono",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A.) ORNAGO",
+        "indirizzo": "VIA CARLO PORTA N.10",
+        "codice": 2642
+      }
+    },
+    {
+      "id": "g7-masate-suisio",
+      "giornata": 7,
+      "data": "2026-10-25",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "masate",
+      "ospite": "suisio",
+      "impianto": {
+        "campo": "CENTRO SPORTIVO COMUNALE MASATE",
+        "indirizzo": "VIA VENEZIA, 2/C",
+        "codice": 297
+      }
+    },
+    {
+      "id": "g7-carugate-orsenigo",
+      "giornata": 7,
+      "data": "2026-10-25",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "carugate",
+      "ospite": "orsenigo",
+      "impianto": {
+        "campo": "C.S.COMUNALE CAMPO 3 (E.A.) CARUGATE",
+        "indirizzo": "VIA DEL GINESTRINO 15",
+        "codice": 1384
+      }
+    },
+    {
+      "id": "g7-grezzago-lokomotiv",
+      "giornata": 7,
+      "data": "2026-10-25",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "grezzago",
+      "ospite": "lokomotiv",
+      "impianto": {
+        "campo": "C.S.ALBERTO SOLCIA(E.A) GREZZAGO",
+        "indirizzo": "VIA DON STURZO 10",
+        "codice": 1034
+      }
+    },
+    {
+      "id": "g8-lokomotiv-capriate",
+      "giornata": 8,
+      "data": "2026-11-01",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "lokomotiv",
+      "ospite": "capriate",
+      "impianto": {
+        "campo": "C.S.COMUNALE FARA GERA D'ADDA",
+        "indirizzo": "VIA A.RESEGHETTI,116",
+        "codice": 356
+      }
+    },
+    {
+      "id": "g8-orsenigo-grezzago",
+      "giornata": 8,
+      "data": "2026-11-01",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "orsenigo",
+      "ospite": "grezzago",
+      "impianto": {
+        "campo": "PARROCCHIA\"MONSIGNOR ORSENIGO\" MELZO",
+        "indirizzo": "VIA SAN ROCCO 5",
+        "codice": 2053
+      }
+    },
+    {
+      "id": "g8-suisio-carugate",
+      "giornata": 8,
+      "data": "2026-11-01",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "suisio",
+      "ospite": "carugate",
+      "impianto": {
+        "campo": "C.S.ORATORIO DON BOSCO SUISIO",
+        "indirizzo": "VIA BREDE,13",
+        "codice": 688
+      }
+    },
+    {
+      "id": "g8-krono-masate",
+      "giornata": 8,
+      "data": "2026-11-01",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "krono",
+      "ospite": "masate",
+      "impianto": {
+        "campo": "COMUNALE CAMPO N.1 BOTTANUCO",
+        "indirizzo": "VIA JOHN FITZGERALD KENNEDY,8",
+        "codice": 1425
+      }
+    },
+    {
+      "id": "g8-trecella-ornago",
+      "giornata": 8,
+      "data": "2026-11-01",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "trecella",
+      "ospite": "ornago",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A)\"P.VITALI\" POZZUOLO MART.",
+        "indirizzo": "VIA XXV APRILE",
+        "codice": 1407
+      }
+    },
+    {
+      "id": "g8-cambiaghese-aureliana",
+      "giornata": 8,
+      "data": "2026-11-01",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "cambiaghese",
+      "ospite": "aureliana",
+      "impianto": {
+        "campo": "C.S.COMUNALE - CAMPO N.1 CAMBIAGO",
+        "indirizzo": "VIA IV NOVEMBRE",
+        "codice": 2241
+      }
+    },
+    {
+      "id": "g8-fonas-busnago",
+      "giornata": 8,
+      "data": "2026-11-01",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "fonas",
+      "ospite": "busnago",
+      "impianto": {
+        "campo": "C.S.\"SANTA GIULIANA\" CAPONAGO",
+        "indirizzo": "VIA DON ANGELO PANIGADA SNC",
+        "codice": 387
+      }
+    },
+    {
+      "id": "g9-busnago-glaxiate",
+      "giornata": 9,
+      "data": "2026-11-08",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "busnago",
+      "ospite": "glaxiate",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) BELLINZAGO LOMBARDO",
+        "indirizzo": "VIA GALILEO GALILEI SNC",
+        "codice": 2189
+      }
+    },
+    {
+      "id": "g9-aureliana-fonas",
+      "giornata": 9,
+      "data": "2026-11-08",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "aureliana",
+      "ospite": "fonas",
+      "impianto": {
+        "campo": "C.S.COMUNALE-CAMPO A (E.A) CASSINA DE'PECCHI",
+        "indirizzo": "VIA GIUSEPPE MAZZINI SNC",
+        "codice": 22
+      }
+    },
+    {
+      "id": "g9-ornago-cambiaghese",
+      "giornata": 9,
+      "data": "2026-11-08",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "ornago",
+      "ospite": "cambiaghese",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A.) ORNAGO",
+        "indirizzo": "VIA CARLO PORTA N.10",
+        "codice": 2642
+      }
+    },
+    {
+      "id": "g9-masate-trecella",
+      "giornata": 9,
+      "data": "2026-11-08",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "masate",
+      "ospite": "trecella",
+      "impianto": {
+        "campo": "CENTRO SPORTIVO COMUNALE MASATE",
+        "indirizzo": "VIA VENEZIA, 2/C",
+        "codice": 297
+      }
+    },
+    {
+      "id": "g9-carugate-krono",
+      "giornata": 9,
+      "data": "2026-11-08",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "carugate",
+      "ospite": "krono",
+      "impianto": {
+        "campo": "C.S.COMUNALE CAMPO 3 (E.A.) CARUGATE",
+        "indirizzo": "VIA DEL GINESTRINO 15",
+        "codice": 1384
+      }
+    },
+    {
+      "id": "g9-grezzago-suisio",
+      "giornata": 9,
+      "data": "2026-11-08",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "grezzago",
+      "ospite": "suisio",
+      "impianto": {
+        "campo": "C.S.ALBERTO SOLCIA(E.A) GREZZAGO",
+        "indirizzo": "VIA DON STURZO 10",
+        "codice": 1034
+      }
+    },
+    {
+      "id": "g9-capriate-orsenigo",
+      "giornata": 9,
+      "data": "2026-11-08",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "capriate",
+      "ospite": "orsenigo",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) CAPRIATE SAN GERVASIO",
+        "indirizzo": "VIA GRIGNANO,24",
+        "codice": 1218
+      }
+    },
+    {
+      "id": "g10-orsenigo-lokomotiv",
+      "giornata": 10,
+      "data": "2026-11-15",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "orsenigo",
+      "ospite": "lokomotiv",
+      "impianto": {
+        "campo": "PARROCCHIA\"MONSIGNOR ORSENIGO\" MELZO",
+        "indirizzo": "VIA SAN ROCCO 5",
+        "codice": 2053
+      }
+    },
+    {
+      "id": "g10-suisio-capriate",
+      "giornata": 10,
+      "data": "2026-11-15",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "suisio",
+      "ospite": "capriate",
+      "impianto": {
+        "campo": "C.S.ORATORIO DON BOSCO SUISIO",
+        "indirizzo": "VIA BREDE,13",
+        "codice": 688
+      }
+    },
+    {
+      "id": "g10-krono-grezzago",
+      "giornata": 10,
+      "data": "2026-11-15",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "krono",
+      "ospite": "grezzago",
+      "impianto": {
+        "campo": "COMUNALE CAMPO N.1 BOTTANUCO",
+        "indirizzo": "VIA JOHN FITZGERALD KENNEDY,8",
+        "codice": 1425
+      }
+    },
+    {
+      "id": "g10-trecella-carugate",
+      "giornata": 10,
+      "data": "2026-11-15",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "trecella",
+      "ospite": "carugate",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A)\"P.VITALI\" POZZUOLO MART.",
+        "indirizzo": "VIA XXV APRILE",
+        "codice": 1407
+      }
+    },
+    {
+      "id": "g10-cambiaghese-masate",
+      "giornata": 10,
+      "data": "2026-11-15",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "cambiaghese",
+      "ospite": "masate",
+      "impianto": {
+        "campo": "C.S.COMUNALE - CAMPO N.1 CAMBIAGO",
+        "indirizzo": "VIA IV NOVEMBRE",
+        "codice": 2241
+      }
+    },
+    {
+      "id": "g10-fonas-ornago",
+      "giornata": 10,
+      "data": "2026-11-15",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "fonas",
+      "ospite": "ornago",
+      "impianto": {
+        "campo": "C.S.\"SANTA GIULIANA\" CAPONAGO",
+        "indirizzo": "VIA DON ANGELO PANIGADA SNC",
+        "codice": 387
+      }
+    },
+    {
+      "id": "g10-glaxiate-aureliana",
+      "giornata": 10,
+      "data": "2026-11-15",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "glaxiate",
+      "ospite": "aureliana",
+      "impianto": {
+        "campo": "C.S.\"ROMEO BERTINI\" N.1 GESSATE",
+        "indirizzo": "VIA GRAMSCI,3",
+        "codice": 567
+      }
+    },
+    {
+      "id": "g11-aureliana-busnago",
+      "giornata": 11,
+      "data": "2026-11-22",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "aureliana",
+      "ospite": "busnago",
+      "impianto": {
+        "campo": "C.S.COMUNALE-CAMPO A (E.A) CASSINA DE'PECCHI",
+        "indirizzo": "VIA GIUSEPPE MAZZINI SNC",
+        "codice": 22
+      }
+    },
+    {
+      "id": "g11-ornago-glaxiate",
+      "giornata": 11,
+      "data": "2026-11-22",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "ornago",
+      "ospite": "glaxiate",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A.) ORNAGO",
+        "indirizzo": "VIA CARLO PORTA N.10",
+        "codice": 2642
+      }
+    },
+    {
+      "id": "g11-masate-fonas",
+      "giornata": 11,
+      "data": "2026-11-22",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "masate",
+      "ospite": "fonas",
+      "impianto": {
+        "campo": "CENTRO SPORTIVO COMUNALE MASATE",
+        "indirizzo": "VIA VENEZIA, 2/C",
+        "codice": 297
+      }
+    },
+    {
+      "id": "g11-carugate-cambiaghese",
+      "giornata": 11,
+      "data": "2026-11-22",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "carugate",
+      "ospite": "cambiaghese",
+      "impianto": {
+        "campo": "C.S.COMUNALE CAMPO 3 (E.A.) CARUGATE",
+        "indirizzo": "VIA DEL GINESTRINO 15",
+        "codice": 1384
+      }
+    },
+    {
+      "id": "g11-grezzago-trecella",
+      "giornata": 11,
+      "data": "2026-11-22",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "grezzago",
+      "ospite": "trecella",
+      "impianto": {
+        "campo": "C.S.ALBERTO SOLCIA(E.A) GREZZAGO",
+        "indirizzo": "VIA DON STURZO 10",
+        "codice": 1034
+      }
+    },
+    {
+      "id": "g11-capriate-krono",
+      "giornata": 11,
+      "data": "2026-11-22",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "capriate",
+      "ospite": "krono",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) CAPRIATE SAN GERVASIO",
+        "indirizzo": "VIA GRIGNANO,24",
+        "codice": 1218
+      }
+    },
+    {
+      "id": "g11-lokomotiv-suisio",
+      "giornata": 11,
+      "data": "2026-11-22",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "lokomotiv",
+      "ospite": "suisio",
+      "impianto": {
+        "campo": "C.S.COMUNALE FARA GERA D'ADDA",
+        "indirizzo": "VIA A.RESEGHETTI,116",
+        "codice": 356
+      }
+    },
+    {
+      "id": "g12-suisio-orsenigo",
+      "giornata": 12,
+      "data": "2026-11-29",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "suisio",
+      "ospite": "orsenigo",
+      "impianto": {
+        "campo": "C.S.ORATORIO DON BOSCO SUISIO",
+        "indirizzo": "VIA BREDE,13",
+        "codice": 688
+      }
+    },
+    {
+      "id": "g12-krono-lokomotiv",
+      "giornata": 12,
+      "data": "2026-11-29",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "krono",
+      "ospite": "lokomotiv",
+      "impianto": {
+        "campo": "COMUNALE CAMPO N.1 BOTTANUCO",
+        "indirizzo": "VIA JOHN FITZGERALD KENNEDY,8",
+        "codice": 1425
+      }
+    },
+    {
+      "id": "g12-trecella-capriate",
+      "giornata": 12,
+      "data": "2026-11-29",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "trecella",
+      "ospite": "capriate",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A)\"P.VITALI\" POZZUOLO MART.",
+        "indirizzo": "VIA XXV APRILE",
+        "codice": 1407
+      }
+    },
+    {
+      "id": "g12-cambiaghese-grezzago",
+      "giornata": 12,
+      "data": "2026-11-29",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "cambiaghese",
+      "ospite": "grezzago",
+      "impianto": {
+        "campo": "C.S.COMUNALE - CAMPO N.1 CAMBIAGO",
+        "indirizzo": "VIA IV NOVEMBRE",
+        "codice": 2241
+      }
+    },
+    {
+      "id": "g12-fonas-carugate",
+      "giornata": 12,
+      "data": "2026-11-29",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "fonas",
+      "ospite": "carugate",
+      "impianto": {
+        "campo": "C.S.\"SANTA GIULIANA\" CAPONAGO",
+        "indirizzo": "VIA DON ANGELO PANIGADA SNC",
+        "codice": 387
+      }
+    },
+    {
+      "id": "g12-glaxiate-masate",
+      "giornata": 12,
+      "data": "2026-11-29",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "glaxiate",
+      "ospite": "masate",
+      "impianto": {
+        "campo": "C.S.\"ROMEO BERTINI\" N.1 GESSATE",
+        "indirizzo": "VIA GRAMSCI,3",
+        "codice": 567
+      }
+    },
+    {
+      "id": "g12-busnago-ornago",
+      "giornata": 12,
+      "data": "2026-11-29",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "busnago",
+      "ospite": "ornago",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) BELLINZAGO LOMBARDO",
+        "indirizzo": "VIA GALILEO GALILEI SNC",
+        "codice": 2189
+      }
+    },
+    {
+      "id": "g13-ornago-aureliana",
+      "giornata": 13,
+      "data": "2026-12-06",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "ornago",
+      "ospite": "aureliana",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A.) ORNAGO",
+        "indirizzo": "VIA CARLO PORTA N.10",
+        "codice": 2642
+      }
+    },
+    {
+      "id": "g13-masate-busnago",
+      "giornata": 13,
+      "data": "2026-12-06",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "masate",
+      "ospite": "busnago",
+      "impianto": {
+        "campo": "CENTRO SPORTIVO COMUNALE MASATE",
+        "indirizzo": "VIA VENEZIA, 2/C",
+        "codice": 297
+      }
+    },
+    {
+      "id": "g13-carugate-glaxiate",
+      "giornata": 13,
+      "data": "2026-12-06",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "carugate",
+      "ospite": "glaxiate",
+      "impianto": {
+        "campo": "C.S.COMUNALE CAMPO 3 (E.A.) CARUGATE",
+        "indirizzo": "VIA DEL GINESTRINO 15",
+        "codice": 1384
+      }
+    },
+    {
+      "id": "g13-grezzago-fonas",
+      "giornata": 13,
+      "data": "2026-12-06",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "grezzago",
+      "ospite": "fonas",
+      "impianto": {
+        "campo": "C.S.ALBERTO SOLCIA(E.A) GREZZAGO",
+        "indirizzo": "VIA DON STURZO 10",
+        "codice": 1034
+      }
+    },
+    {
+      "id": "g13-capriate-cambiaghese",
+      "giornata": 13,
+      "data": "2026-12-06",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "capriate",
+      "ospite": "cambiaghese",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) CAPRIATE SAN GERVASIO",
+        "indirizzo": "VIA GRIGNANO,24",
+        "codice": 1218
+      }
+    },
+    {
+      "id": "g13-lokomotiv-trecella",
+      "giornata": 13,
+      "data": "2026-12-06",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "lokomotiv",
+      "ospite": "trecella",
+      "impianto": {
+        "campo": "C.S.COMUNALE FARA GERA D'ADDA",
+        "indirizzo": "VIA A.RESEGHETTI,116",
+        "codice": 356
+      }
+    },
+    {
+      "id": "g13-orsenigo-krono",
+      "giornata": 13,
+      "data": "2026-12-06",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "orsenigo",
+      "ospite": "krono",
+      "impianto": {
+        "campo": "PARROCCHIA\"MONSIGNOR ORSENIGO\" MELZO",
+        "indirizzo": "VIA SAN ROCCO 5",
+        "codice": 2053
+      }
+    },
+    {
+      "id": "g14-krono-suisio",
+      "giornata": 14,
+      "data": "2026-12-13",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "krono",
+      "ospite": "suisio",
+      "impianto": {
+        "campo": "COMUNALE CAMPO N.1 BOTTANUCO",
+        "indirizzo": "VIA JOHN FITZGERALD KENNEDY,8",
+        "codice": 1425
+      }
+    },
+    {
+      "id": "g14-trecella-orsenigo",
+      "giornata": 14,
+      "data": "2026-12-13",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "trecella",
+      "ospite": "orsenigo",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A)\"P.VITALI\" POZZUOLO MART.",
+        "indirizzo": "VIA XXV APRILE",
+        "codice": 1407
+      }
+    },
+    {
+      "id": "g14-cambiaghese-lokomotiv",
+      "giornata": 14,
+      "data": "2026-12-13",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "cambiaghese",
+      "ospite": "lokomotiv",
+      "impianto": {
+        "campo": "C.S.COMUNALE - CAMPO N.1 CAMBIAGO",
+        "indirizzo": "VIA IV NOVEMBRE",
+        "codice": 2241
+      }
+    },
+    {
+      "id": "g14-fonas-capriate",
+      "giornata": 14,
+      "data": "2026-12-13",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "fonas",
+      "ospite": "capriate",
+      "impianto": {
+        "campo": "C.S.\"SANTA GIULIANA\" CAPONAGO",
+        "indirizzo": "VIA DON ANGELO PANIGADA SNC",
+        "codice": 387
+      }
+    },
+    {
+      "id": "g14-glaxiate-grezzago",
+      "giornata": 14,
+      "data": "2026-12-13",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "glaxiate",
+      "ospite": "grezzago",
+      "impianto": {
+        "campo": "C.S.\"ROMEO BERTINI\" N.1 GESSATE",
+        "indirizzo": "VIA GRAMSCI,3",
+        "codice": 567
+      }
+    },
+    {
+      "id": "g14-busnago-carugate",
+      "giornata": 14,
+      "data": "2026-12-13",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "busnago",
+      "ospite": "carugate",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) BELLINZAGO LOMBARDO",
+        "indirizzo": "VIA GALILEO GALILEI SNC",
+        "codice": 2189
+      }
+    },
+    {
+      "id": "g14-aureliana-masate",
+      "giornata": 14,
+      "data": "2026-12-13",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "aureliana",
+      "ospite": "masate",
+      "impianto": {
+        "campo": "C.S.COMUNALE-CAMPO A (E.A) CASSINA DE'PECCHI",
+        "indirizzo": "VIA GIUSEPPE MAZZINI SNC",
+        "codice": 22
+      }
+    },
+    {
+      "id": "g15-masate-ornago",
+      "giornata": 15,
+      "data": "2026-12-20",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "masate",
+      "ospite": "ornago",
+      "impianto": {
+        "campo": "CENTRO SPORTIVO COMUNALE MASATE",
+        "indirizzo": "VIA VENEZIA, 2/C",
+        "codice": 297
+      }
+    },
+    {
+      "id": "g15-carugate-aureliana",
+      "giornata": 15,
+      "data": "2026-12-20",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "carugate",
+      "ospite": "aureliana",
+      "impianto": {
+        "campo": "C.S.COMUNALE CAMPO 3 (E.A.) CARUGATE",
+        "indirizzo": "VIA DEL GINESTRINO 15",
+        "codice": 1384
+      }
+    },
+    {
+      "id": "g15-grezzago-busnago",
+      "giornata": 15,
+      "data": "2026-12-20",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "grezzago",
+      "ospite": "busnago",
+      "impianto": {
+        "campo": "C.S.ALBERTO SOLCIA(E.A) GREZZAGO",
+        "indirizzo": "VIA DON STURZO 10",
+        "codice": 1034
+      }
+    },
+    {
+      "id": "g15-capriate-glaxiate",
+      "giornata": 15,
+      "data": "2026-12-20",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "capriate",
+      "ospite": "glaxiate",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) CAPRIATE SAN GERVASIO",
+        "indirizzo": "VIA GRIGNANO,24",
+        "codice": 1218
+      }
+    },
+    {
+      "id": "g15-lokomotiv-fonas",
+      "giornata": 15,
+      "data": "2026-12-20",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "lokomotiv",
+      "ospite": "fonas",
+      "impianto": {
+        "campo": "C.S.COMUNALE FARA GERA D'ADDA",
+        "indirizzo": "VIA A.RESEGHETTI,116",
+        "codice": 356
+      }
+    },
+    {
+      "id": "g15-orsenigo-cambiaghese",
+      "giornata": 15,
+      "data": "2026-12-20",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "orsenigo",
+      "ospite": "cambiaghese",
+      "impianto": {
+        "campo": "PARROCCHIA\"MONSIGNOR ORSENIGO\" MELZO",
+        "indirizzo": "VIA SAN ROCCO 5",
+        "codice": 2053
+      }
+    },
+    {
+      "id": "g15-suisio-trecella",
+      "giornata": 15,
+      "data": "2026-12-20",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "suisio",
+      "ospite": "trecella",
+      "impianto": {
+        "campo": "C.S.ORATORIO DON BOSCO SUISIO",
+        "indirizzo": "VIA BREDE,13",
+        "codice": 688
+      }
+    },
+    {
+      "id": "g16-krono-trecella",
+      "giornata": 16,
+      "data": "2027-01-10",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "krono",
+      "ospite": "trecella",
+      "impianto": {
+        "campo": "COMUNALE CAMPO N.1 BOTTANUCO",
+        "indirizzo": "VIA JOHN FITZGERALD KENNEDY,8",
+        "codice": 1425
+      }
+    },
+    {
+      "id": "g16-suisio-cambiaghese",
+      "giornata": 16,
+      "data": "2027-01-10",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "suisio",
+      "ospite": "cambiaghese",
+      "impianto": {
+        "campo": "C.S.ORATORIO DON BOSCO SUISIO",
+        "indirizzo": "VIA BREDE,13",
+        "codice": 688
+      }
+    },
+    {
+      "id": "g16-orsenigo-fonas",
+      "giornata": 16,
+      "data": "2027-01-10",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "orsenigo",
+      "ospite": "fonas",
+      "impianto": {
+        "campo": "PARROCCHIA\"MONSIGNOR ORSENIGO\" MELZO",
+        "indirizzo": "VIA SAN ROCCO 5",
+        "codice": 2053
+      }
+    },
+    {
+      "id": "g16-lokomotiv-glaxiate",
+      "giornata": 16,
+      "data": "2027-01-10",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "lokomotiv",
+      "ospite": "glaxiate",
+      "impianto": {
+        "campo": "C.S.COMUNALE FARA GERA D'ADDA",
+        "indirizzo": "VIA A.RESEGHETTI,116",
+        "codice": 356
+      }
+    },
+    {
+      "id": "g16-capriate-busnago",
+      "giornata": 16,
+      "data": "2027-01-10",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "capriate",
+      "ospite": "busnago",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) CAPRIATE SAN GERVASIO",
+        "indirizzo": "VIA GRIGNANO,24",
+        "codice": 1218
+      }
+    },
+    {
+      "id": "g16-grezzago-aureliana",
+      "giornata": 16,
+      "data": "2027-01-10",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "grezzago",
+      "ospite": "aureliana",
+      "impianto": {
+        "campo": "C.S.ALBERTO SOLCIA(E.A) GREZZAGO",
+        "indirizzo": "VIA DON STURZO 10",
+        "codice": 1034
+      }
+    },
+    {
+      "id": "g16-carugate-ornago",
+      "giornata": 16,
+      "data": "2027-01-10",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "carugate",
+      "ospite": "ornago",
+      "impianto": {
+        "campo": "C.S.COMUNALE CAMPO 3 (E.A.) CARUGATE",
+        "indirizzo": "VIA DEL GINESTRINO 15",
+        "codice": 1384
+      }
+    },
+    {
+      "id": "g17-masate-carugate",
+      "giornata": 17,
+      "data": "2027-01-17",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "masate",
+      "ospite": "carugate",
+      "impianto": {
+        "campo": "CENTRO SPORTIVO COMUNALE MASATE",
+        "indirizzo": "VIA VENEZIA, 2/C",
+        "codice": 297
+      }
+    },
+    {
+      "id": "g17-ornago-grezzago",
+      "giornata": 17,
+      "data": "2027-01-17",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "ornago",
+      "ospite": "grezzago",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A.) ORNAGO",
+        "indirizzo": "VIA CARLO PORTA N.10",
+        "codice": 2642
+      }
+    },
+    {
+      "id": "g17-aureliana-capriate",
+      "giornata": 17,
+      "data": "2027-01-17",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "aureliana",
+      "ospite": "capriate",
+      "impianto": {
+        "campo": "C.S.COMUNALE-CAMPO A (E.A) CASSINA DE'PECCHI",
+        "indirizzo": "VIA GIUSEPPE MAZZINI SNC",
+        "codice": 22
+      }
+    },
+    {
+      "id": "g17-busnago-lokomotiv",
+      "giornata": 17,
+      "data": "2027-01-17",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "busnago",
+      "ospite": "lokomotiv",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) BELLINZAGO LOMBARDO",
+        "indirizzo": "VIA GALILEO GALILEI SNC",
+        "codice": 2189
+      }
+    },
+    {
+      "id": "g17-glaxiate-orsenigo",
+      "giornata": 17,
+      "data": "2027-01-17",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "glaxiate",
+      "ospite": "orsenigo",
+      "impianto": {
+        "campo": "C.S.\"ROMEO BERTINI\" N.1 GESSATE",
+        "indirizzo": "VIA GRAMSCI,3",
+        "codice": 567
+      }
+    },
+    {
+      "id": "g17-fonas-suisio",
+      "giornata": 17,
+      "data": "2027-01-17",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "fonas",
+      "ospite": "suisio",
+      "impianto": {
+        "campo": "C.S.\"SANTA GIULIANA\" CAPONAGO",
+        "indirizzo": "VIA DON ANGELO PANIGADA SNC",
+        "codice": 387
+      }
+    },
+    {
+      "id": "g17-cambiaghese-krono",
+      "giornata": 17,
+      "data": "2027-01-17",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "cambiaghese",
+      "ospite": "krono",
+      "impianto": {
+        "campo": "C.S.COMUNALE - CAMPO N.1 CAMBIAGO",
+        "indirizzo": "VIA IV NOVEMBRE",
+        "codice": 2241
+      }
+    },
+    {
+      "id": "g18-trecella-cambiaghese",
+      "giornata": 18,
+      "data": "2027-01-24",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "trecella",
+      "ospite": "cambiaghese",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A)\"P.VITALI\" POZZUOLO MART.",
+        "indirizzo": "VIA XXV APRILE",
+        "codice": 1407
+      }
+    },
+    {
+      "id": "g18-krono-fonas",
+      "giornata": 18,
+      "data": "2027-01-24",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "krono",
+      "ospite": "fonas",
+      "impianto": {
+        "campo": "COMUNALE CAMPO N.1 BOTTANUCO",
+        "indirizzo": "VIA JOHN FITZGERALD KENNEDY,8",
+        "codice": 1425
+      }
+    },
+    {
+      "id": "g18-suisio-glaxiate",
+      "giornata": 18,
+      "data": "2027-01-24",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "suisio",
+      "ospite": "glaxiate",
+      "impianto": {
+        "campo": "C.S.ORATORIO DON BOSCO SUISIO",
+        "indirizzo": "VIA BREDE,13",
+        "codice": 688
+      }
+    },
+    {
+      "id": "g18-orsenigo-busnago",
+      "giornata": 18,
+      "data": "2027-01-24",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "orsenigo",
+      "ospite": "busnago",
+      "impianto": {
+        "campo": "PARROCCHIA\"MONSIGNOR ORSENIGO\" MELZO",
+        "indirizzo": "VIA SAN ROCCO 5",
+        "codice": 2053
+      }
+    },
+    {
+      "id": "g18-lokomotiv-aureliana",
+      "giornata": 18,
+      "data": "2027-01-24",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "lokomotiv",
+      "ospite": "aureliana",
+      "impianto": {
+        "campo": "C.S.COMUNALE FARA GERA D'ADDA",
+        "indirizzo": "VIA A.RESEGHETTI,116",
+        "codice": 356
+      }
+    },
+    {
+      "id": "g18-capriate-ornago",
+      "giornata": 18,
+      "data": "2027-01-24",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "capriate",
+      "ospite": "ornago",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) CAPRIATE SAN GERVASIO",
+        "indirizzo": "VIA GRIGNANO,24",
+        "codice": 1218
+      }
+    },
+    {
+      "id": "g18-grezzago-masate",
+      "giornata": 18,
+      "data": "2027-01-24",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "grezzago",
+      "ospite": "masate",
+      "impianto": {
+        "campo": "C.S.ALBERTO SOLCIA(E.A) GREZZAGO",
+        "indirizzo": "VIA DON STURZO 10",
+        "codice": 1034
+      }
+    },
+    {
+      "id": "g19-carugate-grezzago",
+      "giornata": 19,
+      "data": "2027-01-31",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "carugate",
+      "ospite": "grezzago",
+      "impianto": {
+        "campo": "C.S.COMUNALE CAMPO 3 (E.A.) CARUGATE",
+        "indirizzo": "VIA DEL GINESTRINO 15",
+        "codice": 1384
+      }
+    },
+    {
+      "id": "g19-masate-capriate",
+      "giornata": 19,
+      "data": "2027-01-31",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "masate",
+      "ospite": "capriate",
+      "impianto": {
+        "campo": "CENTRO SPORTIVO COMUNALE MASATE",
+        "indirizzo": "VIA VENEZIA, 2/C",
+        "codice": 297
+      }
+    },
+    {
+      "id": "g19-ornago-lokomotiv",
+      "giornata": 19,
+      "data": "2027-01-31",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "ornago",
+      "ospite": "lokomotiv",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A.) ORNAGO",
+        "indirizzo": "VIA CARLO PORTA N.10",
+        "codice": 2642
+      }
+    },
+    {
+      "id": "g19-aureliana-orsenigo",
+      "giornata": 19,
+      "data": "2027-01-31",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "aureliana",
+      "ospite": "orsenigo",
+      "impianto": {
+        "campo": "C.S.COMUNALE-CAMPO A (E.A) CASSINA DE'PECCHI",
+        "indirizzo": "VIA GIUSEPPE MAZZINI SNC",
+        "codice": 22
+      }
+    },
+    {
+      "id": "g19-busnago-suisio",
+      "giornata": 19,
+      "data": "2027-01-31",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "busnago",
+      "ospite": "suisio",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) BELLINZAGO LOMBARDO",
+        "indirizzo": "VIA GALILEO GALILEI SNC",
+        "codice": 2189
+      }
+    },
+    {
+      "id": "g19-glaxiate-krono",
+      "giornata": 19,
+      "data": "2027-01-31",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "glaxiate",
+      "ospite": "krono",
+      "impianto": {
+        "campo": "C.S.\"ROMEO BERTINI\" N.1 GESSATE",
+        "indirizzo": "VIA GRAMSCI,3",
+        "codice": 567
+      }
+    },
+    {
+      "id": "g19-fonas-trecella",
+      "giornata": 19,
+      "data": "2027-01-31",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "fonas",
+      "ospite": "trecella",
+      "impianto": {
+        "campo": "C.S.\"SANTA GIULIANA\" CAPONAGO",
+        "indirizzo": "VIA DON ANGELO PANIGADA SNC",
+        "codice": 387
+      }
+    },
+    {
+      "id": "g20-cambiaghese-fonas",
+      "giornata": 20,
+      "data": "2027-02-07",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "cambiaghese",
+      "ospite": "fonas",
+      "impianto": {
+        "campo": "C.S.COMUNALE - CAMPO N.1 CAMBIAGO",
+        "indirizzo": "VIA IV NOVEMBRE",
+        "codice": 2241
+      }
+    },
+    {
+      "id": "g20-trecella-glaxiate",
+      "giornata": 20,
+      "data": "2027-02-07",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "trecella",
+      "ospite": "glaxiate",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A)\"P.VITALI\" POZZUOLO MART.",
+        "indirizzo": "VIA XXV APRILE",
+        "codice": 1407
+      }
+    },
+    {
+      "id": "g20-krono-busnago",
+      "giornata": 20,
+      "data": "2027-02-07",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "krono",
+      "ospite": "busnago",
+      "impianto": {
+        "campo": "COMUNALE CAMPO N.1 BOTTANUCO",
+        "indirizzo": "VIA JOHN FITZGERALD KENNEDY,8",
+        "codice": 1425
+      }
+    },
+    {
+      "id": "g20-suisio-aureliana",
+      "giornata": 20,
+      "data": "2027-02-07",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "suisio",
+      "ospite": "aureliana",
+      "impianto": {
+        "campo": "C.S.ORATORIO DON BOSCO SUISIO",
+        "indirizzo": "VIA BREDE,13",
+        "codice": 688
+      }
+    },
+    {
+      "id": "g20-orsenigo-ornago",
+      "giornata": 20,
+      "data": "2027-02-07",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "orsenigo",
+      "ospite": "ornago",
+      "impianto": {
+        "campo": "PARROCCHIA\"MONSIGNOR ORSENIGO\" MELZO",
+        "indirizzo": "VIA SAN ROCCO 5",
+        "codice": 2053
+      }
+    },
+    {
+      "id": "g20-lokomotiv-masate",
+      "giornata": 20,
+      "data": "2027-02-07",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "lokomotiv",
+      "ospite": "masate",
+      "impianto": {
+        "campo": "C.S.COMUNALE FARA GERA D'ADDA",
+        "indirizzo": "VIA A.RESEGHETTI,116",
+        "codice": 356
+      }
+    },
+    {
+      "id": "g20-capriate-carugate",
+      "giornata": 20,
+      "data": "2027-02-07",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "capriate",
+      "ospite": "carugate",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) CAPRIATE SAN GERVASIO",
+        "indirizzo": "VIA GRIGNANO,24",
+        "codice": 1218
+      }
+    },
+    {
+      "id": "g21-grezzago-capriate",
+      "giornata": 21,
+      "data": "2027-02-14",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "grezzago",
+      "ospite": "capriate",
+      "impianto": {
+        "campo": "C.S.ALBERTO SOLCIA(E.A) GREZZAGO",
+        "indirizzo": "VIA DON STURZO 10",
+        "codice": 1034
+      }
+    },
+    {
+      "id": "g21-carugate-lokomotiv",
+      "giornata": 21,
+      "data": "2027-02-14",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "carugate",
+      "ospite": "lokomotiv",
+      "impianto": {
+        "campo": "C.S.COMUNALE CAMPO 3 (E.A.) CARUGATE",
+        "indirizzo": "VIA DEL GINESTRINO 15",
+        "codice": 1384
+      }
+    },
+    {
+      "id": "g21-masate-orsenigo",
+      "giornata": 21,
+      "data": "2027-02-14",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "masate",
+      "ospite": "orsenigo",
+      "impianto": {
+        "campo": "CENTRO SPORTIVO COMUNALE MASATE",
+        "indirizzo": "VIA VENEZIA, 2/C",
+        "codice": 297
+      }
+    },
+    {
+      "id": "g21-ornago-suisio",
+      "giornata": 21,
+      "data": "2027-02-14",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "ornago",
+      "ospite": "suisio",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A.) ORNAGO",
+        "indirizzo": "VIA CARLO PORTA N.10",
+        "codice": 2642
+      }
+    },
+    {
+      "id": "g21-aureliana-krono",
+      "giornata": 21,
+      "data": "2027-02-14",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "aureliana",
+      "ospite": "krono",
+      "impianto": {
+        "campo": "C.S.COMUNALE-CAMPO A (E.A) CASSINA DE'PECCHI",
+        "indirizzo": "VIA GIUSEPPE MAZZINI SNC",
+        "codice": 22
+      }
+    },
+    {
+      "id": "g21-busnago-trecella",
+      "giornata": 21,
+      "data": "2027-02-14",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "busnago",
+      "ospite": "trecella",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) BELLINZAGO LOMBARDO",
+        "indirizzo": "VIA GALILEO GALILEI SNC",
+        "codice": 2189
+      }
+    },
+    {
+      "id": "g21-glaxiate-cambiaghese",
+      "giornata": 21,
+      "data": "2027-02-14",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "glaxiate",
+      "ospite": "cambiaghese",
+      "impianto": {
+        "campo": "C.S.\"ROMEO BERTINI\" N.1 GESSATE",
+        "indirizzo": "VIA GRAMSCI,3",
+        "codice": 567
+      }
+    },
+    {
+      "id": "g22-fonas-glaxiate",
+      "giornata": 22,
+      "data": "2027-02-21",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "fonas",
+      "ospite": "glaxiate",
+      "impianto": {
+        "campo": "C.S.\"SANTA GIULIANA\" CAPONAGO",
+        "indirizzo": "VIA DON ANGELO PANIGADA SNC",
+        "codice": 387
+      }
+    },
+    {
+      "id": "g22-cambiaghese-busnago",
+      "giornata": 22,
+      "data": "2027-02-21",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "cambiaghese",
+      "ospite": "busnago",
+      "impianto": {
+        "campo": "C.S.COMUNALE - CAMPO N.1 CAMBIAGO",
+        "indirizzo": "VIA IV NOVEMBRE",
+        "codice": 2241
+      }
+    },
+    {
+      "id": "g22-trecella-aureliana",
+      "giornata": 22,
+      "data": "2027-02-21",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "trecella",
+      "ospite": "aureliana",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A)\"P.VITALI\" POZZUOLO MART.",
+        "indirizzo": "VIA XXV APRILE",
+        "codice": 1407
+      }
+    },
+    {
+      "id": "g22-krono-ornago",
+      "giornata": 22,
+      "data": "2027-02-21",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "krono",
+      "ospite": "ornago",
+      "impianto": {
+        "campo": "COMUNALE CAMPO N.1 BOTTANUCO",
+        "indirizzo": "VIA JOHN FITZGERALD KENNEDY,8",
+        "codice": 1425
+      }
+    },
+    {
+      "id": "g22-suisio-masate",
+      "giornata": 22,
+      "data": "2027-02-21",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "suisio",
+      "ospite": "masate",
+      "impianto": {
+        "campo": "C.S.ORATORIO DON BOSCO SUISIO",
+        "indirizzo": "VIA BREDE,13",
+        "codice": 688
+      }
+    },
+    {
+      "id": "g22-orsenigo-carugate",
+      "giornata": 22,
+      "data": "2027-02-21",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "orsenigo",
+      "ospite": "carugate",
+      "impianto": {
+        "campo": "PARROCCHIA\"MONSIGNOR ORSENIGO\" MELZO",
+        "indirizzo": "VIA SAN ROCCO 5",
+        "codice": 2053
+      }
+    },
+    {
+      "id": "g22-lokomotiv-grezzago",
+      "giornata": 22,
+      "data": "2027-02-21",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "lokomotiv",
+      "ospite": "grezzago",
+      "impianto": {
+        "campo": "C.S.COMUNALE FARA GERA D'ADDA",
+        "indirizzo": "VIA A.RESEGHETTI,116",
+        "codice": 356
+      }
+    },
+    {
+      "id": "g23-capriate-lokomotiv",
+      "giornata": 23,
+      "data": "2027-02-28",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "capriate",
+      "ospite": "lokomotiv",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) CAPRIATE SAN GERVASIO",
+        "indirizzo": "VIA GRIGNANO,24",
+        "codice": 1218
+      }
+    },
+    {
+      "id": "g23-grezzago-orsenigo",
+      "giornata": 23,
+      "data": "2027-02-28",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "grezzago",
+      "ospite": "orsenigo",
+      "impianto": {
+        "campo": "C.S.ALBERTO SOLCIA(E.A) GREZZAGO",
+        "indirizzo": "VIA DON STURZO 10",
+        "codice": 1034
+      }
+    },
+    {
+      "id": "g23-carugate-suisio",
+      "giornata": 23,
+      "data": "2027-02-28",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "carugate",
+      "ospite": "suisio",
+      "impianto": {
+        "campo": "C.S.COMUNALE CAMPO 3 (E.A.) CARUGATE",
+        "indirizzo": "VIA DEL GINESTRINO 15",
+        "codice": 1384
+      }
+    },
+    {
+      "id": "g23-masate-krono",
+      "giornata": 23,
+      "data": "2027-02-28",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "masate",
+      "ospite": "krono",
+      "impianto": {
+        "campo": "CENTRO SPORTIVO COMUNALE MASATE",
+        "indirizzo": "VIA VENEZIA, 2/C",
+        "codice": 297
+      }
+    },
+    {
+      "id": "g23-ornago-trecella",
+      "giornata": 23,
+      "data": "2027-02-28",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "ornago",
+      "ospite": "trecella",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A.) ORNAGO",
+        "indirizzo": "VIA CARLO PORTA N.10",
+        "codice": 2642
+      }
+    },
+    {
+      "id": "g23-aureliana-cambiaghese",
+      "giornata": 23,
+      "data": "2027-02-28",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "aureliana",
+      "ospite": "cambiaghese",
+      "impianto": {
+        "campo": "C.S.COMUNALE-CAMPO A (E.A) CASSINA DE'PECCHI",
+        "indirizzo": "VIA GIUSEPPE MAZZINI SNC",
+        "codice": 22
+      }
+    },
+    {
+      "id": "g23-busnago-fonas",
+      "giornata": 23,
+      "data": "2027-02-28",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "busnago",
+      "ospite": "fonas",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) BELLINZAGO LOMBARDO",
+        "indirizzo": "VIA GALILEO GALILEI SNC",
+        "codice": 2189
+      }
+    },
+    {
+      "id": "g24-glaxiate-busnago",
+      "giornata": 24,
+      "data": "2027-03-07",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "glaxiate",
+      "ospite": "busnago",
+      "impianto": {
+        "campo": "C.S.\"ROMEO BERTINI\" N.1 GESSATE",
+        "indirizzo": "VIA GRAMSCI,3",
+        "codice": 567
+      }
+    },
+    {
+      "id": "g24-fonas-aureliana",
+      "giornata": 24,
+      "data": "2027-03-07",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "fonas",
+      "ospite": "aureliana",
+      "impianto": {
+        "campo": "C.S.\"SANTA GIULIANA\" CAPONAGO",
+        "indirizzo": "VIA DON ANGELO PANIGADA SNC",
+        "codice": 387
+      }
+    },
+    {
+      "id": "g24-cambiaghese-ornago",
+      "giornata": 24,
+      "data": "2027-03-07",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "cambiaghese",
+      "ospite": "ornago",
+      "impianto": {
+        "campo": "C.S.COMUNALE - CAMPO N.1 CAMBIAGO",
+        "indirizzo": "VIA IV NOVEMBRE",
+        "codice": 2241
+      }
+    },
+    {
+      "id": "g24-trecella-masate",
+      "giornata": 24,
+      "data": "2027-03-07",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "trecella",
+      "ospite": "masate",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A)\"P.VITALI\" POZZUOLO MART.",
+        "indirizzo": "VIA XXV APRILE",
+        "codice": 1407
+      }
+    },
+    {
+      "id": "g24-krono-carugate",
+      "giornata": 24,
+      "data": "2027-03-07",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "krono",
+      "ospite": "carugate",
+      "impianto": {
+        "campo": "COMUNALE CAMPO N.1 BOTTANUCO",
+        "indirizzo": "VIA JOHN FITZGERALD KENNEDY,8",
+        "codice": 1425
+      }
+    },
+    {
+      "id": "g24-suisio-grezzago",
+      "giornata": 24,
+      "data": "2027-03-07",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "suisio",
+      "ospite": "grezzago",
+      "impianto": {
+        "campo": "C.S.ORATORIO DON BOSCO SUISIO",
+        "indirizzo": "VIA BREDE,13",
+        "codice": 688
+      }
+    },
+    {
+      "id": "g24-orsenigo-capriate",
+      "giornata": 24,
+      "data": "2027-03-07",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "orsenigo",
+      "ospite": "capriate",
+      "impianto": {
+        "campo": "PARROCCHIA\"MONSIGNOR ORSENIGO\" MELZO",
+        "indirizzo": "VIA SAN ROCCO 5",
+        "codice": 2053
+      }
+    },
+    {
+      "id": "g25-lokomotiv-orsenigo",
+      "giornata": 25,
+      "data": "2027-03-14",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "lokomotiv",
+      "ospite": "orsenigo",
+      "impianto": {
+        "campo": "C.S.COMUNALE FARA GERA D'ADDA",
+        "indirizzo": "VIA A.RESEGHETTI,116",
+        "codice": 356
+      }
+    },
+    {
+      "id": "g25-capriate-suisio",
+      "giornata": 25,
+      "data": "2027-03-14",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "capriate",
+      "ospite": "suisio",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) CAPRIATE SAN GERVASIO",
+        "indirizzo": "VIA GRIGNANO,24",
+        "codice": 1218
+      }
+    },
+    {
+      "id": "g25-grezzago-krono",
+      "giornata": 25,
+      "data": "2027-03-14",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "grezzago",
+      "ospite": "krono",
+      "impianto": {
+        "campo": "C.S.ALBERTO SOLCIA(E.A) GREZZAGO",
+        "indirizzo": "VIA DON STURZO 10",
+        "codice": 1034
+      }
+    },
+    {
+      "id": "g25-carugate-trecella",
+      "giornata": 25,
+      "data": "2027-03-14",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "carugate",
+      "ospite": "trecella",
+      "impianto": {
+        "campo": "C.S.COMUNALE CAMPO 3 (E.A.) CARUGATE",
+        "indirizzo": "VIA DEL GINESTRINO 15",
+        "codice": 1384
+      }
+    },
+    {
+      "id": "g25-masate-cambiaghese",
+      "giornata": 25,
+      "data": "2027-03-14",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "masate",
+      "ospite": "cambiaghese",
+      "impianto": {
+        "campo": "CENTRO SPORTIVO COMUNALE MASATE",
+        "indirizzo": "VIA VENEZIA, 2/C",
+        "codice": 297
+      }
+    },
+    {
+      "id": "g25-ornago-fonas",
+      "giornata": 25,
+      "data": "2027-03-14",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "ornago",
+      "ospite": "fonas",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A.) ORNAGO",
+        "indirizzo": "VIA CARLO PORTA N.10",
+        "codice": 2642
+      }
+    },
+    {
+      "id": "g25-aureliana-glaxiate",
+      "giornata": 25,
+      "data": "2027-03-14",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "aureliana",
+      "ospite": "glaxiate",
+      "impianto": {
+        "campo": "C.S.COMUNALE-CAMPO A (E.A) CASSINA DE'PECCHI",
+        "indirizzo": "VIA GIUSEPPE MAZZINI SNC",
+        "codice": 22
+      }
+    },
+    {
+      "id": "g26-busnago-aureliana",
+      "giornata": 26,
+      "data": "2027-03-21",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "busnago",
+      "ospite": "aureliana",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) BELLINZAGO LOMBARDO",
+        "indirizzo": "VIA GALILEO GALILEI SNC",
+        "codice": 2189
+      }
+    },
+    {
+      "id": "g26-glaxiate-ornago",
+      "giornata": 26,
+      "data": "2027-03-21",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "glaxiate",
+      "ospite": "ornago",
+      "impianto": {
+        "campo": "C.S.\"ROMEO BERTINI\" N.1 GESSATE",
+        "indirizzo": "VIA GRAMSCI,3",
+        "codice": 567
+      }
+    },
+    {
+      "id": "g26-fonas-masate",
+      "giornata": 26,
+      "data": "2027-03-21",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "fonas",
+      "ospite": "masate",
+      "impianto": {
+        "campo": "C.S.\"SANTA GIULIANA\" CAPONAGO",
+        "indirizzo": "VIA DON ANGELO PANIGADA SNC",
+        "codice": 387
+      }
+    },
+    {
+      "id": "g26-cambiaghese-carugate",
+      "giornata": 26,
+      "data": "2027-03-21",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "cambiaghese",
+      "ospite": "carugate",
+      "impianto": {
+        "campo": "C.S.COMUNALE - CAMPO N.1 CAMBIAGO",
+        "indirizzo": "VIA IV NOVEMBRE",
+        "codice": 2241
+      }
+    },
+    {
+      "id": "g26-trecella-grezzago",
+      "giornata": 26,
+      "data": "2027-03-21",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "trecella",
+      "ospite": "grezzago",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A)\"P.VITALI\" POZZUOLO MART.",
+        "indirizzo": "VIA XXV APRILE",
+        "codice": 1407
+      }
+    },
+    {
+      "id": "g26-krono-capriate",
+      "giornata": 26,
+      "data": "2027-03-21",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "krono",
+      "ospite": "capriate",
+      "impianto": {
+        "campo": "COMUNALE CAMPO N.1 BOTTANUCO",
+        "indirizzo": "VIA JOHN FITZGERALD KENNEDY,8",
+        "codice": 1425
+      }
+    },
+    {
+      "id": "g26-suisio-lokomotiv",
+      "giornata": 26,
+      "data": "2027-03-21",
+      "ora": "14:30",
+      "orarioFederale": true,
+      "casa": "suisio",
+      "ospite": "lokomotiv",
+      "impianto": {
+        "campo": "C.S.ORATORIO DON BOSCO SUISIO",
+        "indirizzo": "VIA BREDE,13",
+        "codice": 688
+      }
+    },
+    {
+      "id": "g27-orsenigo-suisio",
+      "giornata": 27,
+      "data": "2027-04-04",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "orsenigo",
+      "ospite": "suisio",
+      "impianto": {
+        "campo": "PARROCCHIA\"MONSIGNOR ORSENIGO\" MELZO",
+        "indirizzo": "VIA SAN ROCCO 5",
+        "codice": 2053
+      }
+    },
+    {
+      "id": "g27-lokomotiv-krono",
+      "giornata": 27,
+      "data": "2027-04-04",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "lokomotiv",
+      "ospite": "krono",
+      "impianto": {
+        "campo": "C.S.COMUNALE FARA GERA D'ADDA",
+        "indirizzo": "VIA A.RESEGHETTI,116",
+        "codice": 356
+      }
+    },
+    {
+      "id": "g27-capriate-trecella",
+      "giornata": 27,
+      "data": "2027-04-04",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "capriate",
+      "ospite": "trecella",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) CAPRIATE SAN GERVASIO",
+        "indirizzo": "VIA GRIGNANO,24",
+        "codice": 1218
+      }
+    },
+    {
+      "id": "g27-grezzago-cambiaghese",
+      "giornata": 27,
+      "data": "2027-04-04",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "grezzago",
+      "ospite": "cambiaghese",
+      "impianto": {
+        "campo": "C.S.ALBERTO SOLCIA(E.A) GREZZAGO",
+        "indirizzo": "VIA DON STURZO 10",
+        "codice": 1034
+      }
+    },
+    {
+      "id": "g27-carugate-fonas",
+      "giornata": 27,
+      "data": "2027-04-04",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "carugate",
+      "ospite": "fonas",
+      "impianto": {
+        "campo": "C.S.COMUNALE CAMPO 3 (E.A.) CARUGATE",
+        "indirizzo": "VIA DEL GINESTRINO 15",
+        "codice": 1384
+      }
+    },
+    {
+      "id": "g27-masate-glaxiate",
+      "giornata": 27,
+      "data": "2027-04-04",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "masate",
+      "ospite": "glaxiate",
+      "impianto": {
+        "campo": "CENTRO SPORTIVO COMUNALE MASATE",
+        "indirizzo": "VIA VENEZIA, 2/C",
+        "codice": 297
+      }
+    },
+    {
+      "id": "g27-ornago-busnago",
+      "giornata": 27,
+      "data": "2027-04-04",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "ornago",
+      "ospite": "busnago",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A.) ORNAGO",
+        "indirizzo": "VIA CARLO PORTA N.10",
+        "codice": 2642
+      }
+    },
+    {
+      "id": "g28-aureliana-ornago",
+      "giornata": 28,
+      "data": "2027-04-11",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "aureliana",
+      "ospite": "ornago",
+      "impianto": {
+        "campo": "C.S.COMUNALE-CAMPO A (E.A) CASSINA DE'PECCHI",
+        "indirizzo": "VIA GIUSEPPE MAZZINI SNC",
+        "codice": 22
+      }
+    },
+    {
+      "id": "g28-busnago-masate",
+      "giornata": 28,
+      "data": "2027-04-11",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "busnago",
+      "ospite": "masate",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) BELLINZAGO LOMBARDO",
+        "indirizzo": "VIA GALILEO GALILEI SNC",
+        "codice": 2189
+      }
+    },
+    {
+      "id": "g28-glaxiate-carugate",
+      "giornata": 28,
+      "data": "2027-04-11",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "glaxiate",
+      "ospite": "carugate",
+      "impianto": {
+        "campo": "C.S.\"ROMEO BERTINI\" N.1 GESSATE",
+        "indirizzo": "VIA GRAMSCI,3",
+        "codice": 567
+      }
+    },
+    {
+      "id": "g28-fonas-grezzago",
+      "giornata": 28,
+      "data": "2027-04-11",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "fonas",
+      "ospite": "grezzago",
+      "impianto": {
+        "campo": "C.S.\"SANTA GIULIANA\" CAPONAGO",
+        "indirizzo": "VIA DON ANGELO PANIGADA SNC",
+        "codice": 387
+      }
+    },
+    {
+      "id": "g28-cambiaghese-capriate",
+      "giornata": 28,
+      "data": "2027-04-11",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "cambiaghese",
+      "ospite": "capriate",
+      "impianto": {
+        "campo": "C.S.COMUNALE - CAMPO N.1 CAMBIAGO",
+        "indirizzo": "VIA IV NOVEMBRE",
+        "codice": 2241
+      }
+    },
+    {
+      "id": "g28-trecella-lokomotiv",
+      "giornata": 28,
+      "data": "2027-04-11",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "trecella",
+      "ospite": "lokomotiv",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A)\"P.VITALI\" POZZUOLO MART.",
+        "indirizzo": "VIA XXV APRILE",
+        "codice": 1407
+      }
+    },
+    {
+      "id": "g28-krono-orsenigo",
+      "giornata": 28,
+      "data": "2027-04-11",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "krono",
+      "ospite": "orsenigo",
+      "impianto": {
+        "campo": "COMUNALE CAMPO N.1 BOTTANUCO",
+        "indirizzo": "VIA JOHN FITZGERALD KENNEDY,8",
+        "codice": 1425
+      }
+    },
+    {
+      "id": "g29-suisio-krono",
+      "giornata": 29,
+      "data": "2027-04-18",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "suisio",
+      "ospite": "krono",
+      "impianto": {
+        "campo": "C.S.ORATORIO DON BOSCO SUISIO",
+        "indirizzo": "VIA BREDE,13",
+        "codice": 688
+      }
+    },
+    {
+      "id": "g29-orsenigo-trecella",
+      "giornata": 29,
+      "data": "2027-04-18",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "orsenigo",
+      "ospite": "trecella",
+      "impianto": {
+        "campo": "PARROCCHIA\"MONSIGNOR ORSENIGO\" MELZO",
+        "indirizzo": "VIA SAN ROCCO 5",
+        "codice": 2053
+      }
+    },
+    {
+      "id": "g29-lokomotiv-cambiaghese",
+      "giornata": 29,
+      "data": "2027-04-18",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "lokomotiv",
+      "ospite": "cambiaghese",
+      "impianto": {
+        "campo": "C.S.COMUNALE FARA GERA D'ADDA",
+        "indirizzo": "VIA A.RESEGHETTI,116",
+        "codice": 356
+      }
+    },
+    {
+      "id": "g29-capriate-fonas",
+      "giornata": 29,
+      "data": "2027-04-18",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "capriate",
+      "ospite": "fonas",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) CAPRIATE SAN GERVASIO",
+        "indirizzo": "VIA GRIGNANO,24",
+        "codice": 1218
+      }
+    },
+    {
+      "id": "g29-grezzago-glaxiate",
+      "giornata": 29,
+      "data": "2027-04-18",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "grezzago",
+      "ospite": "glaxiate",
+      "impianto": {
+        "campo": "C.S.ALBERTO SOLCIA(E.A) GREZZAGO",
+        "indirizzo": "VIA DON STURZO 10",
+        "codice": 1034
+      }
+    },
+    {
+      "id": "g29-carugate-busnago",
+      "giornata": 29,
+      "data": "2027-04-18",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "carugate",
+      "ospite": "busnago",
+      "impianto": {
+        "campo": "C.S.COMUNALE CAMPO 3 (E.A.) CARUGATE",
+        "indirizzo": "VIA DEL GINESTRINO 15",
+        "codice": 1384
+      }
+    },
+    {
+      "id": "g29-masate-aureliana",
+      "giornata": 29,
+      "data": "2027-04-18",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "masate",
+      "ospite": "aureliana",
+      "impianto": {
+        "campo": "CENTRO SPORTIVO COMUNALE MASATE",
+        "indirizzo": "VIA VENEZIA, 2/C",
+        "codice": 297
+      }
+    },
+    {
+      "id": "g30-ornago-masate",
+      "giornata": 30,
+      "data": "2027-04-25",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "ornago",
+      "ospite": "masate",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A.) ORNAGO",
+        "indirizzo": "VIA CARLO PORTA N.10",
+        "codice": 2642
+      }
+    },
+    {
+      "id": "g30-aureliana-carugate",
+      "giornata": 30,
+      "data": "2027-04-25",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "aureliana",
+      "ospite": "carugate",
+      "impianto": {
+        "campo": "C.S.COMUNALE-CAMPO A (E.A) CASSINA DE'PECCHI",
+        "indirizzo": "VIA GIUSEPPE MAZZINI SNC",
+        "codice": 22
+      }
+    },
+    {
+      "id": "g30-busnago-grezzago",
+      "giornata": 30,
+      "data": "2027-04-25",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "busnago",
+      "ospite": "grezzago",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A) BELLINZAGO LOMBARDO",
+        "indirizzo": "VIA GALILEO GALILEI SNC",
+        "codice": 2189
+      }
+    },
+    {
+      "id": "g30-glaxiate-capriate",
+      "giornata": 30,
+      "data": "2027-04-25",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "glaxiate",
+      "ospite": "capriate",
+      "impianto": {
+        "campo": "C.S.\"ROMEO BERTINI\" N.1 GESSATE",
+        "indirizzo": "VIA GRAMSCI,3",
+        "codice": 567
+      }
+    },
+    {
+      "id": "g30-fonas-lokomotiv",
+      "giornata": 30,
+      "data": "2027-04-25",
+      "ora": "15:30",
+      "orarioFederale": true,
+      "casa": "fonas",
+      "ospite": "lokomotiv",
+      "impianto": {
+        "campo": "C.S.\"SANTA GIULIANA\" CAPONAGO",
+        "indirizzo": "VIA DON ANGELO PANIGADA SNC",
+        "codice": 387
+      }
+    },
+    {
+      "id": "g30-cambiaghese-orsenigo",
+      "giornata": 30,
+      "data": "2027-04-25",
+      "ora": "14:30",
+      "orarioFederale": false,
+      "casa": "cambiaghese",
+      "ospite": "orsenigo",
+      "impianto": {
+        "campo": "C.S.COMUNALE - CAMPO N.1 CAMBIAGO",
+        "indirizzo": "VIA IV NOVEMBRE",
+        "codice": 2241
+      }
+    },
+    {
+      "id": "g30-trecella-suisio",
+      "giornata": 30,
+      "data": "2027-04-25",
+      "ora": "15:00",
+      "orarioFederale": false,
+      "casa": "trecella",
+      "ospite": "suisio",
+      "impianto": {
+        "campo": "C.S.COMUNALE (E.A)\"P.VITALI\" POZZUOLO MART.",
+        "indirizzo": "VIA XXV APRILE",
+        "codice": 1407
+      }
+    }
+  ],
+  "risultati": {}
+}

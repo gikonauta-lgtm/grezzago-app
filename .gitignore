@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Configurazione locale degli strumenti di sviluppo
+.claude/
+
+# Dipendenze: il progetto non ne ha, ma se un giorno ne servissero
+node_modules/
+
+# File temporanei
+*.log
+.env
+.env.*

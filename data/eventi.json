@@ -1,0 +1,49 @@
+{
+  "_nota": "Ogni evento qui dentro deve essere reale e verificabile. Gli eventi con \"verificato\": true vengono da fonte ufficiale (sito del Comune). Non inserire segnaposto: chi legge l'app ci va davvero.",
+  "categorie": {
+    "festa": {
+      "etichetta": "Feste e sagre",
+      "colore": "festa"
+    },
+    "sport": {
+      "etichetta": "Sport",
+      "colore": "sport"
+    },
+    "cultura": {
+      "etichetta": "Cultura",
+      "colore": "cultura"
+    },
+    "comune": {
+      "etichetta": "Dal Comune",
+      "colore": "comune"
+    },
+    "bambini": {
+      "etichetta": "Bambini e ragazzi",
+      "colore": "bambini"
+    },
+    "mercato": {
+      "etichetta": "Mercati",
+      "colore": "mercato"
+    }
+  },
+  "eventi": [
+    {
+      "id": "camminata-viola-2026",
+      "titolo": "7ª Camminata della Rete V.I.O.L.A.",
+      "sottotitolo": "Camminata non competitiva contro la violenza sulle donne",
+      "categoria": "sport",
+      "inizio": "2026-10-25T09:00:00",
+      "fine": "2026-10-25T13:00:00",
+      "orarioNota": "Ritrovo ore 9:00 — partenza ore 10:00",
+      "luogo": "Campo Sportivo «A. Solcia»",
+      "indirizzo": "Via Don Luigi Sturzo, 10 — Grezzago (MI)",
+      "descrizione": "L'appuntamento annuale della rete antiviolenza dell'Adda Martesana. Una camminata aperta a tutti, di qualsiasi passo ed età, che attraversa il paese e i campi attorno. Si cammina insieme per dire che gli occhi non si chiudono.",
+      "organizzatore": "Rete V.I.O.L.A. Adda Martesana",
+      "link": "https://www.retedeldono.it/nonchiuderegliocchi-2026",
+      "linkEtichetta": "Iscriviti alla camminata",
+      "gratuito": true,
+      "verificato": true,
+      "fonte": "Comune di Grezzago"
+    }
+  ]
+}

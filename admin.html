@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gestione — Grezzago</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#faf8f5">
+<link rel="icon" href="assets/icona.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/app.css">
+<style>
+  .admin { max-width: 780px; margin: 0 auto; padding: 24px var(--gutter) 80px; }
+  .campo { display: block; margin-bottom: 14px; }
+  .campo > span {
+    display: block; font-size: 11.5px; font-weight: 700; letter-spacing: .07em;
+    text-transform: uppercase; color: var(--testo-tenue); margin-bottom: 5px;
+  }
+  input, select, textarea {
+    width: 100%; padding: 10px 12px; font: inherit; font-size: 14px;
+    color: var(--testo); background: var(--carta);
+    border: 1px solid var(--bordo); border-radius: var(--r-sm);
+  }
+  input:focus, select:focus, textarea:focus { outline: 2px solid var(--marchio); outline-offset: 1px; border-color: transparent; }
+  textarea { min-height: 90px; resize: vertical; }
+  .due { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 520px) { .due { grid-template-columns: 1fr; } }
+
+  .riga-risultato {
+    display: grid; grid-template-columns: 1fr 54px 12px 54px 1fr auto;
+    align-items: center; gap: 8px;
+    padding: 10px 12px; border-bottom: 1px solid var(--bordo);
+  }
+  .riga-risultato input { text-align: center; padding: 7px 4px; font-weight: 700; }
+  .riga-risultato .sq { font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .riga-risultato .sq.dx { text-align: right; }
+  .riga-risultato .sq.mia { font-weight: 700; color: var(--marchio); }
+  /* Su telefono la riga su una sola linea diventa illeggibile e i campi
+     troppo stretti per il pollice: metto ogni squadra sulla sua riga, con
+     accanto il proprio punteggio. */
+  @media (max-width: 560px) {
+    .riga-risultato { grid-template-columns: 1fr 72px; row-gap: 8px; padding: 14px 12px; }
+    .riga-risultato > :nth-child(1) { grid-column: 1; grid-row: 1; }
+    .riga-risultato > :nth-child(2) { grid-column: 2; grid-row: 1; }
+    .riga-risultato > :nth-child(3) { display: none; }
+    .riga-risultato > :nth-child(4) { grid-column: 2; grid-row: 2; }
+    .riga-risultato > :nth-child(5) { grid-column: 1; grid-row: 2; }
+    .riga-risultato > :nth-child(6) { display: none; }
+    .riga-risultato .sq.dx { text-align: left; }
+    .riga-risultato input { padding: 9px 4px; font-size: 16px; }
+  }
+
+  .voce-evento {
+    display: flex; align-items: center; gap: 12px;
+    padding: 12px 14px; border-bottom: 1px solid var(--bordo);
+  }
+  .voce-evento:last-child { border-bottom: 0; }
+  .voce-evento .corpo { flex: 1; min-width: 0; }
+  .voce-evento .corpo strong { font-size: 14px; display: block; }
+  .voce-evento .corpo span { font-size: 12px; color: var(--testo-tenue); }
+
+  .avviso-salvato {
+    position: fixed; left: 50%; bottom: 26px; transform: translateX(-50%);
+    padding: 11px 20px; border-radius: 999px; font-size: 13.5px; font-weight: 600;
+    background: var(--testo); color: var(--sfondo); box-shadow: var(--ombra-lg);
+    z-index: 90; animation: entra .25s ease;
+  }
+</style>
+</head>
+<body>
+
+<header class="barra" style="border-bottom:1px solid var(--bordo)">
+  <div class="barra-interna">
+    <a class="marchio" href="index.html">
+      <svg class="marchio-scudo" viewBox="0 0 30 34" aria-hidden="true">
+        <path d="M15 1 28 5v13c0 8-6.2 13-13 15C8.2 31 2 26 2 18V5z" fill="var(--marchio)"/>
+        <text x="15" y="22.5" text-anchor="middle" font-family="Archivo, sans-serif"
+          font-size="15" font-weight="800" fill="#fff">G</text>
+      </svg>
+      <span class="marchio-testo">Gestione<small>Grezzago</small></span>
+    </a>
+    <a class="btn" href="index.html" style="margin-left:auto">Vedi l'app</a>
+  </div>
+</header>
+
+<main class="admin">
+  <h1 style="font-size:30px;letter-spacing:-.035em">Pannello di gestione</h1>
+  <p style="color:var(--testo-medio);font-size:14.5px;margin:8px 0 24px;line-height:1.6">
+    Da qui si aggiornano i risultati del campionato e gli eventi del paese.
+    Le modifiche restano su <strong>questo dispositivo</strong>: quando sei
+    soddisfatto, usa <em>Esporta modifiche</em> in fondo e consegna il file a chi
+    gestisce il sito, che lo mette nella cartella <code>data/</code>.
+  </p>
+
+  <!-- ---------------------------------------------------------------- -->
+  <div class="carta" style="padding:16px 18px;margin-bottom:26px">
+    <strong style="font-family:var(--font-display);font-size:15px">Da dove arrivano i dati</strong>
+    <p style="margin:6px 0 0;font-size:13px;color:var(--testo-medio);line-height:1.55">
+      Calendario, campi e orari vengono dal calendario ufficiale della Delegazione
+      Provinciale di Monza. I risultati si importano dal comunicato settimanale
+      del Comitato con un comando solo:
+    </p>
+    <pre style="margin:10px 0 0;padding:10px 12px;background:var(--carta-alt);border-radius:8px;font-size:12px;overflow-x:auto"><code>node scripts/importa-risultati.mjs &lt;link del comunicato&gt;</code></pre>
+    <p style="margin:8px 0 0;font-size:12.5px;color:var(--testo-tenue);line-height:1.5">
+      Quello che inserisci qui sotto vale solo su questo dispositivo: serve per
+      pubblicare un risultato in giornata, prima che esca il comunicato.
+    </p>
+  </div>
+
+  <!-- ---------------------------------------------------------------- -->
+  <h2 style="font-size:20px;margin-bottom:6px">Risultati</h2>
+  <p style="color:var(--testo-medio);font-size:13.5px;margin:0 0 14px">
+    Inserisci i gol e la classifica si ricalcola da sola. Lascia vuoto per una
+    partita non ancora giocata.
+  </p>
+
+  <div class="carta" style="overflow:hidden;margin-bottom:12px">
+    <div class="selettore-giornata">
+      <button type="button" id="giornataGiu" aria-label="Giornata precedente">‹</button>
+      <div class="titolo" id="etichettaGiornata">—</div>
+      <button type="button" id="giornataSu" aria-label="Giornata successiva">›</button>
+    </div>
+    <div id="righeRisultati"></div>
+  </div>
+  <button class="btn primario" id="salvaRisultati" style="margin-bottom:32px">Salva i risultati della giornata</button>
+
+  <!-- ---------------------------------------------------------------- -->
+  <h2 style="font-size:20px;margin-bottom:6px">Eventi</h2>
+  <p style="color:var(--testo-medio);font-size:13.5px;margin:0 0 14px">
+    Gli eventi inseriti qui compaiono nell'app insieme a quelli che arrivano dal
+    sito del Comune.
+  </p>
+
+  <div class="carta" id="elencoEventi" style="overflow:hidden;margin-bottom:16px"></div>
+
+  <div class="carta" style="padding:18px;margin-bottom:32px">
+    <h3 style="font-size:16px;margin-bottom:16px" id="titoloForm">Nuovo evento</h3>
+    <form id="formEvento">
+      <input type="hidden" id="campoId">
+
+      <label class="campo"><span>Titolo</span>
+        <input id="campoTitolo" required placeholder="Sagra di San Martino"></label>
+
+      <label class="campo"><span>Sottotitolo (facoltativo)</span>
+        <input id="campoSottotitolo" placeholder="Tre giorni di festa in centro"></label>
+
+      <div class="due">
+        <label class="campo"><span>Inizio</span>
+          <input id="campoInizio" type="datetime-local" required></label>
+        <label class="campo"><span>Fine (facoltativa)</span>
+          <input id="campoFine" type="datetime-local"></label>
+      </div>
+
+      <label class="campo"><span>Categoria</span>
+        <select id="campoCategoria"></select></label>
+
+      <div class="due">
+        <label class="campo"><span>Luogo</span>
+          <input id="campoLuogo" placeholder="Piazza della Repubblica"></label>
+        <label class="campo"><span>Indirizzo</span>
+          <input id="campoIndirizzo" placeholder="Piazza della Repubblica — Grezzago (MI)"></label>
+      </div>
+
+      <label class="campo"><span>Descrizione</span>
+        <textarea id="campoDescrizione" placeholder="Racconta l'evento in due righe: cosa si fa, per chi è, perché vale la pena."></textarea></label>
+
+      <div class="due">
+        <label class="campo"><span>Chi organizza</span>
+          <input id="campoOrganizzatore" placeholder="Pro Loco / Comune / Parrocchia"></label>
+        <label class="campo"><span>Link (facoltativo)</span>
+          <input id="campoLink" type="url" placeholder="https://…"></label>
+      </div>
+
+      <label style="display:flex;align-items:center;gap:9px;font-size:14px;margin:4px 0 18px">
+        <input type="checkbox" id="campoGratuito" style="width:auto" checked> Ingresso gratuito
+      </label>
+
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <button class="btn primario" type="submit">Salva evento</button>
+        <button class="btn" type="button" id="annullaForm">Annulla</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- ---------------------------------------------------------------- -->
+  <h2 style="font-size:20px;margin-bottom:6px">Esporta</h2>
+  <p style="color:var(--testo-medio);font-size:13.5px;margin:0 0 14px">
+    Scarica tutto quello che hai inserito, per metterlo nei file del sito e
+    renderlo visibile a tutti.
+  </p>
+  <div style="display:flex;gap:10px;flex-wrap:wrap">
+    <button class="btn primario" id="esporta">Esporta modifiche (.json)</button>
+    <button class="btn" id="azzera">Azzera tutto su questo dispositivo</button>
+  </div>
+</main>
+
+<script type="module">
+import {
+  caricaTutto, archivio, CHIAVI,
+  salvaEvento, rimuoviEvento, salvaRisultato, eliminaRisultato, esportaModifiche,
+} from './js/dati.js';
+import { esc, dataLunga, ordinaleF } from './js/formato.js';
+
+const $ = (id) => document.getElementById(id);
+let stato = null;
+let giornata = 1;
+let indice = new Map();
+
+function segnala(testo) {
+  document.querySelector('.avviso-salvato')?.remove();
+  const el = document.createElement('div');
+  el.className = 'avviso-salvato';
+  el.textContent = testo;
+  document.body.appendChild(el);
+  setTimeout(() => el.remove(), 2600);
+}
+
+/* --- Tema --------------------------------------------------------- */
+const tema = archivio.leggi(CHIAVI.tema, 'auto');
+if (tema !== 'auto') document.documentElement.setAttribute('data-tema', tema);
+
+/* --- Risultati ---------------------------------------------------- */
+function disegnaRisultati() {
+  const partite = stato.partite.filter((p) => p.giornata === giornata);
+  const salvati = archivio.leggi(CHIAVI.risultati, {}) || {};
+  const nostra = stato.config.squadraDiCasa;
+  const riposa = stato.riposi?.[giornata];
+
+  $('etichettaGiornata').innerHTML =
+    `${ordinaleF(giornata)} giornata<small>${partite[0] ? esc(dataLunga(partite[0].data)) : ''}</small>`;
+  $('giornataGiu').disabled = giornata <= 1;
+  $('giornataSu').disabled = giornata >= 30;
+
+  $('righeRisultati').innerHTML =
+    (riposa ? `<div class="riposo-riga">Riposa: <strong>${esc(indice.get(riposa)?.nome || riposa)}</strong></div>` : '')
+    + partite.map((p) => {
+      const r = salvati[p.id];
+      return `<div class="riga-risultato" data-partita="${esc(p.id)}">
+        <span class="sq ${p.casa === nostra ? 'mia' : ''}">${esc(indice.get(p.casa)?.nome)}</span>
+        <input type="number" min="0" max="30" inputmode="numeric" data-casa
+          value="${r ? r[0] : ''}" aria-label="Gol ${esc(indice.get(p.casa)?.nome)}">
+        <span style="text-align:center;color:var(--testo-tenue)">–</span>
+        <input type="number" min="0" max="30" inputmode="numeric" data-ospite
+          value="${r ? r[1] : ''}" aria-label="Gol ${esc(indice.get(p.ospite)?.nome)}">
+        <span class="sq dx ${p.ospite === nostra ? 'mia' : ''}">${esc(indice.get(p.ospite)?.nome)}</span>
+        <span></span>
+      </div>`;
+    }).join('');
+}
+
+$('giornataGiu').addEventListener('click', () => { giornata--; disegnaRisultati(); });
+$('giornataSu').addEventListener('click', () => { giornata++; disegnaRisultati(); });
+
+$('salvaRisultati').addEventListener('click', () => {
+  let quanti = 0;
+  document.querySelectorAll('[data-partita]').forEach((riga) => {
+    const id = riga.dataset.partita;
+    const casa = riga.querySelector('[data-casa]').value;
+    const ospite = riga.querySelector('[data-ospite]').value;
+    if (casa === '' || ospite === '') { eliminaRisultato(id); return; }
+    salvaRisultato(id, casa, ospite);
+    quanti++;
+  });
+  segnala(quanti ? `Salvati ${quanti} risultati` : 'Risultati della giornata azzerati');
+});
+
+/* --- Eventi ------------------------------------------------------- */
+function perInput(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  const p = (n) => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}T${p(d.getHours())}:${p(d.getMinutes())}`;
+}
+
+function disegnaEventi() {
+  const elenco = [...stato.eventi]
+    .filter((e) => !e.soloAvviso)
+    .sort((a, b) => new Date(a.inizio) - new Date(b.inizio));
+
+  $('elencoEventi').innerHTML = elenco.length ? elenco.map((e) => `
+    <div class="voce-evento">
+      <div class="corpo">
+        <strong>${esc(e.titolo)}</strong>
+        <span>${esc(dataLunga(e.inizio))}${e.daFeed ? ' · dal sito del Comune' : ''}${e.demo ? ' · da confermare' : ''}</span>
+      </div>
+      <button class="btn" data-modifica="${esc(e.id)}" type="button">Modifica</button>
+      <button class="btn" data-elimina="${esc(e.id)}" type="button"
+        style="color:var(--sconfitta)">Togli</button>
+    </div>`).join('')
+    : '<div style="padding:26px;text-align:center;color:var(--testo-tenue);font-size:14px">Nessun evento.</div>';
+}
+
+$('elencoEventi').addEventListener('click', (e) => {
+  const mod = e.target.closest('[data-modifica]');
+  if (mod) { compilaForm(stato.eventi.find((x) => x.id === mod.dataset.modifica)); return; }
+
+  const del = e.target.closest('[data-elimina]');
+  if (del) {
+    const evento = stato.eventi.find((x) => x.id === del.dataset.elimina);
+    if (!confirm(`Togliere «${evento?.titolo}» dall'app?`)) return;
+    rimuoviEvento(del.dataset.elimina);
+    stato.eventi = stato.eventi.filter((x) => x.id !== del.dataset.elimina);
+    disegnaEventi();
+    segnala('Evento tolto');
+  }
+});
+
+function compilaForm(evento) {
+  $('titoloForm').textContent = evento ? 'Modifica evento' : 'Nuovo evento';
+  $('campoId').value = evento?.id || '';
+  $('campoTitolo').value = evento?.titolo || '';
+  $('campoSottotitolo').value = evento?.sottotitolo || '';
+  $('campoInizio').value = perInput(evento?.inizio);
+  $('campoFine').value = perInput(evento?.fine);
+  $('campoCategoria').value = evento?.categoria || 'festa';
+  $('campoLuogo').value = evento?.luogo || '';
+  $('campoIndirizzo').value = evento?.indirizzo || '';
+  $('campoDescrizione').value = evento?.descrizione || '';
+  $('campoOrganizzatore').value = evento?.organizzatore || '';
+  $('campoLink').value = evento?.link || '';
+  $('campoGratuito').checked = evento ? !!evento.gratuito : true;
+  $('formEvento').scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+$('annullaForm').addEventListener('click', () => compilaForm(null));
+
+$('formEvento').addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  const titolo = $('campoTitolo').value.trim();
+  const id = $('campoId').value
+    || `locale-${titolo.toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 40)}-${Date.now().toString(36)}`;
+
+  const evento = {
+    id,
+    titolo,
+    sottotitolo: $('campoSottotitolo').value.trim() || undefined,
+    categoria: $('campoCategoria').value,
+    inizio: new Date($('campoInizio').value).toISOString(),
+    fine: $('campoFine').value ? new Date($('campoFine').value).toISOString() : undefined,
+    luogo: $('campoLuogo').value.trim() || undefined,
+    indirizzo: $('campoIndirizzo').value.trim() || undefined,
+    descrizione: $('campoDescrizione').value.trim() || undefined,
+    organizzatore: $('campoOrganizzatore').value.trim() || undefined,
+    link: $('campoLink').value.trim() || undefined,
+    gratuito: $('campoGratuito').checked,
+  };
+
+  salvaEvento(evento);
+  stato.eventi = [...stato.eventi.filter((x) => x.id !== id), evento];
+  disegnaEventi();
+  compilaForm(null);
+  segnala('Evento salvato');
+});
+
+/* --- Esporta / azzera --------------------------------------------- */
+$('esporta').addEventListener('click', () => {
+  const blob = new Blob([JSON.stringify(esportaModifiche(), null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `grezzago-modifiche-${new Date().toISOString().slice(0, 10)}.json`;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+});
+
+$('azzera').addEventListener('click', () => {
+  if (!confirm('Cancellare tutti i risultati e gli eventi inseriti su questo dispositivo?')) return;
+  archivio.rimuovi(CHIAVI.eventi);
+  archivio.rimuovi(CHIAVI.risultati);
+  location.reload();
+});
+
+/* --- Avvio -------------------------------------------------------- */
+(async () => {
+  stato = await caricaTutto({ conFeed: false });
+  indice = new Map(stato.squadre.map((s) => [s.id, s]));
+
+  $('campoCategoria').innerHTML = Object.entries(stato.categorie)
+    .map(([chiave, c]) => `<option value="${esc(chiave)}">${esc(c.etichetta)}</option>`).join('');
+
+  // Apro sulla giornata più vicina a oggi.
+  const oggi = new Date();
+  const prossima = stato.partite.find((p) => new Date(`${p.data}T23:59:59`) >= oggi);
+  giornata = prossima?.giornata || 1;
+
+  disegnaRisultati();
+  disegnaEventi();
+})();
+</script>
+</body>
+</html>

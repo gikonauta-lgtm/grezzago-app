@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Grezzago — l'app del paese</title>
+
+<meta name="description" content="La classifica dell'A.S.D. Grezzago 1981 aggiornata in tempo reale, gli eventi in programma a Grezzago e cosa vedere in paese e nei dintorni.">
+<meta name="theme-color" content="#faf8f5">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Grezzago">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Grezzago">
+<meta property="og:title" content="Grezzago — l'app del paese">
+<meta property="og:description" content="Classifica del Grezzago calcio, eventi in paese e cosa vedere nei dintorni.">
+<meta property="og:locale" content="it_IT">
+
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icona.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icona-180.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<div class="guscio">
+  <header class="barra" id="barra"></header>
+
+  <main class="contenuto" id="app">
+    <div class="sezione">
+      <div class="carta" style="margin-top:40px;padding:40px;text-align:center;color:var(--testo-tenue)">
+        Caricamento…
+      </div>
+    </div>
+  </main>
+
+  <footer class="piede">
+    <div class="piede-interno">
+      <p style="margin:0 0 10px">
+        <strong style="color:var(--testo);font-family:var(--font-display)">Grezzago</strong> —
+        app del paese, per chi ci vive e per chi viene a trovarci.
+      </p>
+      <p style="margin:0 0 10px">
+        Progetto indipendente. Non è il sito ufficiale del Comune di Grezzago.
+      </p>
+      <p style="margin:0">
+        Calendario, campi, orari e risultati: <a href="https://www.crlombardia.it/"
+          target="_blank" rel="noopener">Comitato Regionale Lombardia LND</a>,
+        Delegazione Provinciale di Monza — Terza Categoria, Girone A.
+        Notizie ed eventi:
+        <a href="https://www.comune.grezzago.mi.it/" target="_blank" rel="noopener">Comune di Grezzago</a>.
+      </p>
+      <p style="margin:10px 0 0">
+        <a href="admin.html">Pannello di gestione</a>
+      </p>
+    </div>
+  </footer>
+</div>
+
+<nav class="nav" id="nav" aria-label="Sezioni principali"></nav>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
